@@ -59,6 +59,7 @@ Also adds a bunch of builder mods and tries to solve inventory management in the
 - [Xaero's World Map](https://modrinth.com/mod/xaeros-world-map)
 - [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)
 - [Athena](https://modrinth.com/mod/athena-ctm)
+- [Freecam](https://modrinth.com/mod/freecam)
 - [Patchouli](https://modrinth.com/mod/patchouli)
 - [Global Datapacks](https://modrinth.com/mod/datapacks)
 </details>
