@@ -62,6 +62,8 @@ Also adds a bunch of builder mods and tries to solve inventory management in the
 - [Freecam](https://modrinth.com/mod/freecam)
 - [Patchouli](https://modrinth.com/mod/patchouli)
 - [Global Datapacks](https://modrinth.com/mod/datapacks)
+- [CC:Tweaked](https://modrinth.com/mod/cc-tweaked)
+- [BBOR](https://modrinth.com/mod/bbor)
 </details>
 
 ## Notes
