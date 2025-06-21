@@ -20,8 +20,7 @@ Also adds a bunch of builder mods and tries to solve inventory management in the
 - [Create Deco](https://modrinth.com/mod/create-deco)
 - [Create Slice & Dice](https://modrinth.com/mod/slice-and-dice)
 - [Create: Steam 'n' Rails](https://modrinth.com/mod/create-steam-n-rails)
-- [Create Track Map](https://modrinth.com/mod/create-track-map)
-- [Farmer's Delight](https://modrinth.com/mod/farmers-delight-fabric)
+- [Farmer's Delight](https://modrinth.com/mod/farmers-delight-refabricated)
 </details>
 
 <details>
@@ -63,7 +62,6 @@ Also adds a bunch of builder mods and tries to solve inventory management in the
 - [Patchouli](https://modrinth.com/mod/patchouli)
 - [Global Datapacks](https://modrinth.com/mod/datapacks)
 - [CC:Tweaked](https://modrinth.com/mod/cc-tweaked)
-- [BBOR](https://modrinth.com/mod/bbor)
 </details>
 
 ## Notes
