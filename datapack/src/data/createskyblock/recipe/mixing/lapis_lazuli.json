@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "minecraft:blue_dye"
+      }
+  ],
+  "results": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "count": 2
+    }
+  ]
+}
