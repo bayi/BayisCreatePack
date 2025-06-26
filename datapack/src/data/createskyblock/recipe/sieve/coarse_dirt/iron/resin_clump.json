@@ -1,0 +1,18 @@
+{
+  "type": "exdeorum:sieve",
+  "ingredient": {
+    "item": "minecraft:coarse_dirt"
+  },
+  "mesh": {
+    "item": "exdeorum:iron_mesh"
+  },
+  "result": {
+    "count": 1,
+    "id": "vanillabackport:resin_clump"
+  },
+  "result_amount": {
+    "type": "minecraft:binomial",
+    "n": 2.0,
+    "p": 0.33
+  }
+}
