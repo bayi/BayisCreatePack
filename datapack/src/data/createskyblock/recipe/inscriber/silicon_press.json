@@ -1,0 +1,19 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "ae2:sky_dust"
+    },
+    "middle": {
+      "item": "ae2:silicon"
+    },
+    "top": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "ae2:silicon_press"
+  }
+}
