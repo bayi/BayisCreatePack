@@ -3,7 +3,7 @@
   "block_predicate": {
     "block_tag": "minecraft:leaves"
   },
-  "chance": 0.1,
+  "chance": 0.05,
   "result": {
     "count": 1,
     "id": "exdeorum:silkworm"
