@@ -1,8 +1,8 @@
 #!/usr/bin/php
 <?php
 
-$SOURCE_PATH = "../mc-forditasok/create-skyblock-pack/";
-$DESTINATION_PATH = "./resourcepack/src/assets/";
+$SOURCE_PATH = "../../mc-forditasok/create-skyblock-pack/";
+$DESTINATION_PATH = "./src/assets/";
 
 // List all directories in the source path
 $directories = glob($SOURCE_PATH . '*/', GLOB_ONLYDIR);
