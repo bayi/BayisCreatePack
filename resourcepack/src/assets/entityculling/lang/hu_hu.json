@@ -3,7 +3,7 @@
     "key.entityculling.toggle": "Hibakeresés selejtezés váltása",
     "key.entityculling.toggleBoxes": "Mutatja a selejtezési határokat",
     "text.entityculling.tab.general_options": "Ált.",
-    "text.entityculling.tab.tick_culling": "Tick selejt kihagy.",
+    "text.entityculling.tab.tick_culling": "Tick kihagy.",
     "text.entityculling.tab.tick_culling.tooltip": "A kiválasztott entitások ebben a fülben nem lesznek optimalizálva a tick metódusukban, amikor selejtezik őket. Ez hasznos lehet olyan entitások számára, amelyeknek tickelniük kell bizonyos funkciókhoz, például csónakok esetében.",
     "text.entityculling.tab.entity_culling": "Ent. kihagy.",
     "text.entityculling.tab.entity_culling.tooltip": "A kiválasztott entitások ebben a fülben nem lesznek selejtezve. Ez főleg kliensoldali entitásokhoz vagy olyan entitásokhoz szükséges, amelyeknek láthatóságuktól függetlenül meg kell jelenniük.",
