@@ -4,6 +4,8 @@ all: build
 
 build:
 	@rm ${DIST} || true
+	@echo " * Copying translations ..."
+	@php import-translations.php
 	@echo " * Creating ${DIST} ..."
 	@cd src && zip -r -r ../${DIST} .
 	
