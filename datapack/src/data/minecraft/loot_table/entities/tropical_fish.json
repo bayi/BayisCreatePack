@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:tropical_fish"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.05,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:tube_coral_fan",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:brain_coral_fan",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bubble_coral_fan",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:fire_coral_fan",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:horn_coral_fan",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "random_chance",
+          "chance": 0.5
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/tropical_fish"
+}
