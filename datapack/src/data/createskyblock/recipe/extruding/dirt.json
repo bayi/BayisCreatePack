@@ -1,0 +1,17 @@
+  {
+    "type": "create_mechanical_extruder:extruding",
+    "result": {
+      "id": "minecraft:dirt"
+    },
+    "blockIngredients": {
+      "first": {
+        "blocks": "minecraft:water"
+      },
+      "second": {
+        "blocks": "minecraft:water"
+      }
+    },
+    "catalyst": {
+      "blocks": "minecraft:gravel"
+    }
+  }
