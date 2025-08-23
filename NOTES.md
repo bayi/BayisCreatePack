@@ -4,6 +4,7 @@
 - EMI Még nem jó? -> Lehet mégis
 - Add sculk sifting recipes...
 - Add moss sifting recipes...
+- AE2 Hogyan?
 
 # Kezdő Lootok
 
