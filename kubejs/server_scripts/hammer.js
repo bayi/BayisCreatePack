@@ -63,10 +63,7 @@ BlockEvents.broken(event => {
   block.popItem(Item.of(drop, brokenCount)) // Drop the processed item(s)
 
   // Damage the hammer by brokenCount // @TODO: Not working
-  if (tool.damage) {
-    tool.damage(brokenCount)
-  }
-  // tool.damage(1)
+  // tool.damage(brokenCount)
 
   event.cancel() // Prevent the default drops
 })

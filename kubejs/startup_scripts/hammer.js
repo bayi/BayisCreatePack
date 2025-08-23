@@ -2,7 +2,7 @@
 // --- Item Registration ---
 StartupEvents.registry('item', event => {
   event.create('createskyblock:hammer', 'pickaxe')
-    .displayName('Crushing Hammer') // @TODO: Translate
+    .displayName('Crushing Hammer')
     .maxStackSize(1)
     .maxDamage(250) // durability
     .texture('createskyblock:item/wooden_hammer')
