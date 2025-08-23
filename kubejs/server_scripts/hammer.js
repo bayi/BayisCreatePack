@@ -1,11 +1,13 @@
 
 const hammerId = 'createskyblock:hammer'
-const hammerLoot = {
+const hammerTag = 'createskyblock:hammers'
+const hammerDropMap = {
   'minecraft:stone': 'minecraft:cobblestone',
   'minecraft:cobblestone': 'minecraft:gravel',
   'minecraft:gravel': 'minecraft:sand',
   // 'minecraft:sand': 'createskyblock:dust', // your custom dust
 }
+
 
 // --- Recipe Registration --- @TODO: Not working
 ServerEvents.recipes(event => {
@@ -24,32 +26,70 @@ ServerEvents.recipes(event => {
 
 // --- Tag the item ---
 ServerEvents.tags('item', event => {
-    event.add(hammerId, 'createskyblock:hammers')
+    event.add(hammerTag, hammerId)
 })
 
 // --- Custom Break Behaviour ---
 BlockEvents.broken(event => {
-    const { block, player, item } = event
-    const mainHandItem = player.mainHandItem?.id
-    const offHandItem = player.offHandItem?.id
-    const mainHandItem2 = player.getMainHandItem()
+    const { block, player } = event
+    player.tell(`You broke a ${block.id}`)
+    const drop = hammerDropMap[block.id]
+    if (!drop) return // Not a block that can be processed by the hammer
 
-    player.tell(`You broke a ${block.id} using ${mainHandItem} in main hand and ${offHandItem} in off hand. Item used: ${mainHandItem2?.id}`)
+    const tool = player.getMainHandItem()
+    if (!tool.hasTag(hammerTag)) return // Not holding a hammer (by tag)
 
-    if (mainHandItem != hammerId && offHandItem != hammerId) return
-    let drop = hammerLoot[block.id]
+    if (player.crouching) return // Allow normal drops when sneaking
 
-    // @TODO: Fix veinminer (Liteminer) compatibility
-    if (drop) {
+    player.tell(`Hammering...`)
 
-        // Break the block and drop gravel manually
-        block.set('minecraft:air') // Break the block
-        block.popItem(drop)
+    const maxBlocks = 8 // Max blocks to break at once
+    const breakingBlocks = new Set()
+    breakingBlocks.add(JSON.stringify(block.pos))
 
-        // Damage the hammer by 1
-        tool.damage(1)
+    function breakConnectedBlocks(pos, targetBlock) {
+      if (breakingBlocks.size >= maxBlocks) return
 
-        // Prevent the default drops
-        event.cancel()
+      const directions = [
+          {x: 1, y: 0, z: 0}, {x: -1, y: 0, z: 0},
+          {x: 0, y: 1, z: 0}, {x: 0, y: -1, z: 0},
+          {x: 0, y: 0, z: 1}, {x: 0, y: 0, z: -1}
+      ]
+
+      for (const dir of directions) {
+        if (breakingBlocks.size >= maxBlocks) break
+        let newPos = pos.offset(dir.x, dir.y, dir.z)
+        if (breakingBlocks.has(JSON.stringify(newPos))) continue // Already broken in this chain
+
+        let adjacentBlock = event.level.getBlock(newPos)
+          // Check if adjacent block matches the target block type
+        if (adjacentBlock && (
+            adjacentBlock.id === targetBlock.id ||
+            (targetBlock.tags && targetBlock.tags.some(tag => adjacentBlock.hasTag(tag)))
+        )) {
+            breakingBlocks.add(JSON.stringify(newPos))
+            adjacentBlock.set('minecraft:air')
+            // Recursively break connected blocks of the same type
+            breakConnectedBlocks(newPos, targetBlock)
+        }
+        
+      }
     }
+
+    player.tell(`Starting to break connected blocks...`)
+
+    breakConnectedBlocks(block.pos, block)
+
+    player.tell(`Number of broken blocks: ${breakingBlocks.size}`)
+
+
+    // Break the block and drop gravel manually
+    // block.set('minecraft:air') // Break the block
+    block.popItem(drop)
+
+    // Damage the hammer by 1
+    // tool.damage(1)
+
+    // Prevent the default drops
+    event.cancel()
 })
