@@ -52,3 +52,9 @@ X Add: https://modrinth.com/mod/geore vagy https://modrinth.com/mod/create-ore-e
 - Craft Recept: 2xFöld + 2xZúzottkő = 4xFöld -> Remove
 - Cleanup kubejs
 - Valami hordóféleség víz és láva készítésére
+
+## Progression
+- Fa -> Komposztáló -> Levelek -> Csontliszt
+- Csontlist füvön -> Magok
+
+- Vas?
