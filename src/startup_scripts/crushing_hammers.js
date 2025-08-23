@@ -6,7 +6,7 @@ const crushingHammers = {
     'minecraft:stone': 'minecraft:cobblestone',
     'minecraft:cobblestone': 'minecraft:gravel',
     'minecraft:gravel': 'minecraft:sand',
-    // 'minecraft:sand': 'createskyblock:dust', // @TODO: custom dust
+    'minecraft:sand': 'createsifter:dust',
   },
   items: [],
 }
