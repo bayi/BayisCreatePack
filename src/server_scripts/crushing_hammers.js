@@ -19,7 +19,6 @@ for (const item  of global.CrushingHammers.items) {
 // --- Hammer processing ---
 BlockEvents.broken(event => {
   const { block, player } = event
-  player.tell(`You broke ${block.id}`)
   const drop = global.CrushingHammers.processingMap[block.id]
   if (!drop) return // Not a block that can be processed by the hammer
 
