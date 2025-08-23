@@ -1,7 +1,7 @@
 # Ötletetek
 
 - Sculk aktiválás Wardenhez ?
-- EMI Még nem jó?
+- EMI Még nem jó? -> Lehet mégis
 - Add sculk sifting recipes...
 - Add moss sifting recipes...
 
@@ -38,7 +38,6 @@
 + Loot table tropical fish -> coral legyezők
 + Tall grass / Short grass -> flax seeds
 - Cleanup kubejs
-- Valami hordóféleség víz és láva készítésére
 - Cleanup mod list (unused libraries)
 
 ## Progression
