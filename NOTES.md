@@ -44,5 +44,5 @@
 - Fa -> Komposztáló -> Levelek -> Csontliszt
 - Csontlist füvön -> Magok
 
-- Kezdeti kő a melterhez ?
+- Kezdeti kő a melterhez ? -> Kő kavics (Föld szitálás) -> Kell föld !
 - Vas?
