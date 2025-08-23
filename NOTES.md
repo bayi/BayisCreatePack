@@ -4,8 +4,8 @@
 - Exdeorum-ba milyen magok voltak még ?
 - Sculk aktiválás Wardenhez ?
 - EMI Még nem jó?
-- Add sculk sifting recipes
-- Moha szitálás ...
+- Add sculk sifting recipes...
+- Add moss sifting recipes...
 
 # Kezdő Lootok
 
