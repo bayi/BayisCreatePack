@@ -1,7 +1,6 @@
 # Ötletetek
 
 - ~~Drop fű -> Lenmag~~ -> Mégis?
-- Exdeorum-ba milyen magok voltak még ?
 - Sculk aktiválás Wardenhez ?
 - EMI Még nem jó?
 - Add sculk sifting recipes...
