@@ -1,6 +1,5 @@
 # Ötletetek
 
-- ~~Drop fű -> Lenmag~~ -> Mégis?
 - Sculk aktiválás Wardenhez ?
 - EMI Még nem jó?
 - Add sculk sifting recipes...
@@ -37,6 +36,7 @@
 + Fishing junk loot hozzáad: Hínár
 + Extruder Recept: Víz + Víz (Sóder) -> Föld
 + Loot table tropical fish -> coral legyezők
++ Tall grass / Short grass -> flax seeds
 - Cleanup kubejs
 - Valami hordóféleség víz és láva készítésére
 - Cleanup mod list (unused libraries)
