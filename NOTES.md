@@ -1,16 +1,12 @@
 # Ötletetek
 
-- ~~Drop fű -> Lenmag~~
+- ~~Drop fű -> Lenmag~~ -> Mégis?
 - Exdeorum-ba milyen magok voltak még ?
 - Sculk aktiválás Wardenhez ?
 - Farmers delight magok check
-- Most nem a skyblock a default világtípus!
+- EMI Még nem jó?
 - Add sculk sifting recipes
 - Moha szitálás ...
-+ Easy mob farm vissza -> Create mechanical spawner Ki
-+ Új modok fordításai: Create Sifter, Mechanical Extruder, Melter
-X Add: https://modrinth.com/mod/geore vagy https://modrinth.com/mod/create-ore-excavation (Egyik se jó)
-- EMI Még nem jó
 
 # Kezdő Lootok
 
