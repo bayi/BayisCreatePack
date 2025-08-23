@@ -12,6 +12,10 @@
     {
       "chance": 0.05,
       "id": "supplementaries:flax_seeds"
+    },
+    {
+      "chance": 0.05,
+      "id": "farmersdelight:onion"
     }
   ]
 }

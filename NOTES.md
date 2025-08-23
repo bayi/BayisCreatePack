@@ -3,7 +3,6 @@
 - ~~Drop fű -> Lenmag~~ -> Mégis?
 - Exdeorum-ba milyen magok voltak még ?
 - Sculk aktiválás Wardenhez ?
-- Farmers delight magok check
 - EMI Még nem jó?
 - Add sculk sifting recipes
 - Moha szitálás ...
@@ -47,4 +46,5 @@
 - Fa -> Komposztáló -> Levelek -> Csontliszt
 - Csontlist füvön -> Magok
 
+- Kezdeti kő a melterhez ?
 - Vas?
