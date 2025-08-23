@@ -20,14 +20,6 @@
   // You may also directly use these in the template config, or use a reference created here.
   "spawnPointReferences": {
     "default": {
-      "south": [],
-      "west": [],
-      "north": [
-        [ 6, 3, 6 ]
-      ],
-      "east": []
-    },
-    "classic": {
       "south": [
         [ 6, 3, 5 ]
       ],
@@ -41,6 +33,14 @@
         [ 6, 3, 6 ]
       ],
       "north": [],
+      "east": []
+    },
+    "hard": {
+      "south": [],
+      "west": [],
+      "north": [
+        [ 6, 3, 6 ]
+      ],
       "east": []
     }
   },
@@ -80,16 +80,16 @@
       "spreads": "default"
     },
     {
-      "name": "classic",
-      "file": "classic.nbt",
-      "spawns": "classic",
+      "name": "easy",
+      "file": "easy.nbt",
+      "spawns": "easy",
       "surroundingBlocks": "default",
       "spreads": "default"
     },
     {
-      "name": "easy",
-      "file": "easy.nbt",
-      "spawns": "easy",
+      "name": "hard",
+      "file": "hard.nbt",
+      "spawns": "hard",
       "surroundingBlocks": "default",
       "spreads": "default"
     }

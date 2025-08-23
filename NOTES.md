@@ -7,6 +7,10 @@
 
 # Kezdő Lootok
 
+## Default
+ - Láva Favödör
+ - 1x Jég
+
 ## Easy
  - 1x Csavarkulcs
  - 1x Fa balta
@@ -18,10 +22,6 @@
  - 1x Fűrész
  - 1x Mechanical extruder
  - 1x Melter
-
-## Classic
- - Láva Favödör
- - 1x Jég
 
 ## Hard : Semmi
 
