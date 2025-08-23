@@ -14,7 +14,7 @@ const crushingHammers = {
 
 // --- Item Registration ---
 StartupEvents.registry('item', event => {
-  crushingHammers.items.push(['createskyblock:crushing_hammer', 'minecraft:cobblestone'])
+  crushingHammers.items.push(['createskyblock:crushing_hammer', 'minecraft:wooden_plank'])
   event.create('createskyblock:crushing_hammer', 'pickaxe')
     .maxStackSize(1)
     .maxDamage(250) // durability
