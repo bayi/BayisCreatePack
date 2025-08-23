@@ -38,16 +38,17 @@ X Add: https://modrinth.com/mod/geore vagy https://modrinth.com/mod/create-ore-e
 ## Hard : Semmi
   - 1x Jég (Vízet lehetne valahonnan? -> Melter levelekből -> Semmi)
 
-- TODO: Recipe conflicts check
-+ TODO: Supplementaries fordítások frissítése (* Bunting)
-+ TODO: Vasrög! -> Zombi loot hozzáad
-+ TODO: Levelek szitálás recept kiegészít sápadt tölgy csemetével
-+ TODO: Föld szitálás recept kiegészít lenmag (Len -> Fonál)
-+ TODO: Craft Recept: Föld + magok = Fűblokk
-+ TODO: Craft Recept: Föld + gomba = Micellium
-+ TODO: Fishing junk loot hozzáad: Hínár
-+ TODO: Extruder Recept: Víz + Víz (Sóder) -> Föld
-+ TODO: Loot table tropical fish -> coral legyezők
-- TODO: Craft Recept: 2xFöld + 2xZúzottkő = 4xFöld -> Remove
-- TODO: Cleanup kubejs
-- TODO: Valami hordóféleség víz és láva készítésére
+## TODO
+- Recipe conflicts check
++ Supplementaries fordítások frissítése (* Bunting)
++ Vasrög! -> Zombi loot hozzáad
++ Levelek szitálás recept kiegészít sápadt tölgy csemetével
++ Föld szitálás recept kiegészít lenmag (Len -> Fonál)
++ Craft Recept: Föld + magok = Fűblokk
++ Craft Recept: Föld + gomba = Micellium
++ Fishing junk loot hozzáad: Hínár
++ Extruder Recept: Víz + Víz (Sóder) -> Föld
++ Loot table tropical fish -> coral legyezők
+- Craft Recept: 2xFöld + 2xZúzottkő = 4xFöld -> Remove
+- Cleanup kubejs
+- Valami hordóféleség víz és láva készítésére
