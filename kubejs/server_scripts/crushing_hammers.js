@@ -1,38 +1,32 @@
-const hammerId = 'createskyblock:hammer'
-const hammerTag = 'createskyblock:hammers'
-const hammerDropMap = {
-  'minecraft:stone': 'minecraft:cobblestone',
-  'minecraft:cobblestone': 'minecraft:gravel',
-  'minecraft:gravel': 'minecraft:sand',
-  // 'minecraft:sand': 'createskyblock:dust', // @TODO: custom dust
-}
 
 // --- Recipe Registration ---
-ServerEvents.recipes(event => {
-  event.shaped(
-    Item.of(hammerId, 1),
-    [
-      'AAA',
-      'ASA',
-      ' S '
-    ],
-    {
-      A: 'minecraft:oak_planks',
-      S: 'minecraft:stick'
-    })
-})
+for (const item  of global.CrushingHammers.items) {
+  ServerEvents.recipes(event => {
+    event.shaped(
+      Item.of(item[0], 1),
+      [
+        'AAA',
+        'ASA',
+        ' S '
+      ],
+      {
+        A: item[1],
+        S: 'minecraft:stick'
+      })
+  })
+}
 
 // --- Hammer processing ---
 BlockEvents.broken(event => {
   const { block, player } = event
   player.tell(`You broke ${block.id}`)
-  const drop = hammerDropMap[block.id]
+  const drop = global.CrushingHammers.processingMap[block.id]
   if (!drop) return // Not a block that can be processed by the hammer
 
   const tool = player.getMainHandItem()
-  if (!tool.hasTag(hammerTag)) return // Not holding a hammer (by tag)
+  if (!tool.hasTag(global.CrushingHammers.tag)) return // Not holding a hammer (by tag)
 
-  let maxBlocks = 64 // Max blocks to break at once
+  let maxBlocks = global.CrushingHammers.maxProcessBlocks
   let brokenCount = 0 // Counter for broken blocks
   if (player.crouching) maxBlocks = 1 // If crouching, only break one block
 
@@ -63,7 +57,7 @@ BlockEvents.broken(event => {
   block.popItem(Item.of(drop, brokenCount)) // Drop the processed item(s)
 
   // Damage the hammer by brokenCount // @TODO: Not working
-  // tool.damage(brokenCount)
+  tool.damage()
 
   event.cancel() // Prevent the default drops
 })

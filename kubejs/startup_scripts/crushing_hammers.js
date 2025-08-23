@@ -1,0 +1,38 @@
+
+const crushingHammers = {
+  tag: 'createskyblock:crushing_hammers',
+  maxProcessBlocks: 64,
+  processingMap: {
+    'minecraft:stone': 'minecraft:cobblestone',
+    'minecraft:cobblestone': 'minecraft:gravel',
+    'minecraft:gravel': 'minecraft:sand',
+    // 'minecraft:sand': 'createskyblock:dust', // @TODO: custom dust
+  },
+  items: [],
+}
+
+
+// --- Item Registration ---
+StartupEvents.registry('item', event => {
+  crushingHammers.items.push(['createskyblock:crushing_hammer', 'minecraft:cobblestone'])
+  event.create('createskyblock:crushing_hammer', 'pickaxe')
+    .maxStackSize(1)
+    .maxDamage(250) // durability
+    .texture('createskyblock:item/crushing_hammer')
+    .tier('stone')
+    .tag(crushingHammers.tag) // custom tag for all crushing hammers
+    .tag('minecraft:mineable/pickaxe') // behaves like a pickaxe for mining
+    .tag('forge:tools')
+    .tag('forge:tools/hammers')
+})
+
+// --- Add item to creative tab ---
+StartupEvents.modifyCreativeTab('minecraft:tools_and_utilities', event => {
+  let lastItem = 'minecraft:stone_hoe'
+  for (const item of crushingHammers.items) {
+    event.addAfter(lastItem, item[0])
+    lastItem = item[0]
+  }
+})
+
+global.CrushingHammers = crushingHammers
