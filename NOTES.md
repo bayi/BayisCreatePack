@@ -36,7 +36,6 @@ X Add: https://modrinth.com/mod/geore vagy https://modrinth.com/mod/create-ore-e
  - 1x Jég
 
 ## Hard : Semmi
-  - 1x Jég (Vízet lehetne valahonnan? -> Melter levelekből -> Semmi)
 
 ## TODO
 - Recipe conflicts check
@@ -49,7 +48,6 @@ X Add: https://modrinth.com/mod/geore vagy https://modrinth.com/mod/create-ore-e
 + Fishing junk loot hozzáad: Hínár
 + Extruder Recept: Víz + Víz (Sóder) -> Föld
 + Loot table tropical fish -> coral legyezők
-- Craft Recept: 2xFöld + 2xZúzottkő = 4xFöld -> Remove
 - Cleanup kubejs
 - Valami hordóféleség víz és láva készítésére
 
