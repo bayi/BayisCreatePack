@@ -49,3 +49,5 @@ X Add: https://modrinth.com/mod/geore vagy https://modrinth.com/mod/create-ore-e
 + TODO: Extruder Recept: Víz + Víz (Sóder) -> Föld
 + TODO: Loot table tropical fish -> coral legyezők
 - TODO: Craft Recept: 2xFöld + 2xZúzottkő = 4xFöld -> Remove
+- TODO: Cleanup kubejs
+- TODO: Valami hordóféleség víz és láva készítésére
