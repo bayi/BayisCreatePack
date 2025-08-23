@@ -41,6 +41,7 @@
 + Loot table tropical fish -> coral legyezők
 - Cleanup kubejs
 - Valami hordóféleség víz és láva készítésére
+- Cleanup mod list (unused libraries)
 
 ## Progression
 - Fa -> Komposztáló -> Levelek -> Csontliszt
