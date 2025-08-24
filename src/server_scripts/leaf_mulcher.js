@@ -19,17 +19,7 @@ BlockEvents.rightClicked((event) => {
   if (block.id !== 'createskyblock:leaf_mulcher') return // Not a leaf mulcher
   if (!item.hasTag('minecraft:leaves')) return // Not holding leaves
 
-  const heldItem = player.getMainHandItem()
-  if (heldItem.id !== item.id) return // Ensure the held item is the same as the interacted item
-
-  if (!player.isCreative) {
-    if (heldItem.count > 1) {
-      item.count -= 1 // Consume one leaf
-      player.setMainHandItem(heldItem) // Update the player's held item
-    } else {
-      player.setMainHandItem(Item.of('minecraft:air')) // Remove item if only one left
-    }
-  }
+  item.count -= 1 // Consume one
 
   const rand = Math.random()
   const count = Math.floor(Math.random() * 6) + 1
