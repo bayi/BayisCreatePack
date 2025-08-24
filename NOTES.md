@@ -5,6 +5,7 @@
 - Add sculk sifting recipes...
 - Add moss sifting recipes...
 - AE2 Hogyan?
+- Advancements: Remove some, add "Skyblock"
 
 # Kezdő Lootok
 
