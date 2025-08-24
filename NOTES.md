@@ -7,6 +7,7 @@
 - Advancements: Remove some, add "Skyblock"
 - Cink háló jelenleg nem használt
 - Remove Sophistaced Backpacks ?
+- Remove waystones ?
 
 # Kezdő Lootok
 

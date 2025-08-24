@@ -1,6 +1,8 @@
 
-- AdvancedAE !
+# Mods list
+
 - Advanced Peripherals  *
+- AdvancedAE !
 - Advancement Plaques
 - Amendments *
 - Applied Energistics 2 *
@@ -11,17 +13,22 @@
 - Chipped *
 - Create *
 - Create Crafts & Additions *
+- Create Jetpack *
+- Create Mechanical Extruder
+- Create Sifting
+- Create Slice & Dice
+- Create: Bells & Whistles
 - Create: Dragons Plus !
 - Create: Enchantment Industry *
-- Create Jetpack *
 - Create: Power Loader *
+- Create: Trading floor
 - Curios API *
+- Default World Type
 - Easy Mob Farm *
 - EMI !
-- EMILoot
 - EMI Addon: Extra Mod Integrations
+- EMILoot
 - Entity Culling
-- Ex Deorum !
 - Factory Blocks *
 - Farmer's Delight *
 - FerriteCore
@@ -29,14 +36,17 @@
 - ImmediatelyFast
 - Jade *
 - Jade Addons *
+- KubeJS
 - Legendary Tooltips
+- Liteminer
 - Lithium
-- MEGA Cells *
 - ME Requester *
+- MEGA Cells *
+- Melter
 - ModernFix
 - Open Loader
 - Particular
-- Patchouli 1.21-88
+- Patchouli
 - Powah! *
 - Simple Voice Chat
 - Sky Void Additions ?
@@ -48,8 +58,8 @@
 - Tom's Peripherals *
 - TooManyRecipeViewers
 - Vanilla Backport *
-- What Are They Up To
 - Waystones
+- What Are They Up To
 - Wooden Bucket *
 - Wooden Shears *
 - Wooden Hopper
