@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "kubejs:block/leaf_mulcher_bottom",
+    "side": "kubejs:block/leaf_mulcher_side",
+    "top": "kubejs:block/leaf_mulcher_top"
+  }
+}

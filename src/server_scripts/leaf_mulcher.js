@@ -21,15 +21,25 @@ BlockEvents.rightClicked((event) => {
   if (block.id !== 'createskyblock:leaf_mulcher') return // Not a leaf mulcher
   if (!item.hasTag('minecraft:leaves')) return // Not holding leaves
 
+  const heldItem = player.getMainHandItem()
+  if (heldItem.id !== item.id) return // Ensure the held item is the same as the interacted item
+
   if (!player.isCreative) {
-    item.count -= 1 // Consume one leaf
-    if (item.count <= 0) player.setMainHandItem(Item.of('minecraft:air')) // Remove item if count is zero
+    if (heldItem.count > 1) {
+      item.count -= 1 // Consume one leaf
+      player.setMainHandItem(heldItem) // Update the player's held item
+    } else {
+      player.setMainHandItem(Item.of('minecraft:air')) // Remove item if only one left
+    }
   }
 
   const rand = Math.random()
   block.popItem(Item.of('minecraft:dirt', rand < 0.1 ? 2 : 1)) // 10% chance to drop 2 dirt, otherwise 1 dirt
-  event.cancel() // Prevent default interaction
 
-  // Play sound effect
-  // level.playSound(player.x, player.y, player.z, 'minecraft:block.grass.break', 'block', 1.0, 1.0, false)
+  event.cancel() // Prevent default interaction
+})
+
+BlockEvents.placed((event) => {
+  const { block, player, item, level } = event
+  player.tell(`Placed block: ${block.id} at ${block.pos}`)
 })
