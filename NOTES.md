@@ -65,20 +65,21 @@
 - Xaero's Minimap
 - Xaero's World Map *
 
-
 # TODO
 
 ## Ideas
 
 - Sculk aktiválás Wardenhez ?
-- EMI Még nem jó? -> Lehet mégis
-- Add sculk sifting recipes...
-- Add moss sifting recipes...
+- EMI Még nem jó? -> Lehet mégis -> Fix create mechanical crafter
 - Advancements: Remove some, add "Skyblock"
-- Cink háló jelenleg nem használt
+- Sifting: Zinc Mesh currently not used (add recipes)
+- Sifting: add moss recipes
+- Sifting: add sculk recipes
 - Remove Sophistaced Backpacks ?
 - Remove waystones ?
 - Modular routers?
++ ~~Structure:trial_chambers letilt ? kalapács, wind charge!~~ 
++ Kezdő sziget készítés -> https://modrinth.com/mod/skyblock-builder + https://modrinth.com/datapack/sky-void-additions
 
 ## TODO
 + A2 addonok (thins meg még valami ...) -> https://www.youtube.com/watch?v=yUcOS8J5__4 -> ExtendedAE , ME Requester, Advanced AE, ~~AE2 Things~~
@@ -92,28 +93,16 @@
 + ~~https://modrinth.com/mod/reap-mod~~
 + Check all mods in EMI integration
 + ~~Easy Villagers?~~
-+ Wooden hoppers
-+ Kivenni / csökkenteni a silk wormot mert tudja fertőzni a szomszédos leveleket
 + Több dirt blokk alulra hogy -63 (alá) tudjunk egyszerűen menni (vagy offset)
-+ 2 jég az easy pályába
++ ~~2 jég az easy pályába~~
 + ~~Vein miner mod -> ? https://modrinth.com/mod/ore-excavation -> https://modrinth.com/mod/ore-harvester + tree-harvester ? -> Nope mert a kalapáccsal nem megy és a create favágó eleve egybe szedi a fát~~
 + ~~X https://modrinth.com/mod/enderio~~
-+ ! https://modrinth.com/mod/slice-and-dice
-+ ? https://modrinth.com/mod/create-trading-floor
++ https://modrinth.com/mod/slice-and-dice
++ https://modrinth.com/mod/create-trading-floor
 + ~~X https://modrinth.com/mod/create-applied-kinetics~~
-+ ? https://modrinth.com/mod/bellsandwhistles
++ https://modrinth.com/mod/bellsandwhistles
 + https://modrinth.com/mod/liteminer
-* EMI Create barkácsolás fix ?
 + Supplementaries fordítások frissítése (* Bunting)
-+ Vasrög! -> Zombi loot hozzáad
-+ Levelek szitálás recept kiegészít sápadt tölgy csemetével
-+ Föld szitálás recept kiegészít lenmag (Len -> Fonál)
-+ Craft Recept: Föld + magok = Fűblokk
-+ Craft Recept: Föld + gomba = Micellium
-+ Fishing junk loot hozzáad: Hínár
-+ Extruder Recept: Víz + Víz (Sóder) -> Föld
-+ Loot table tropical fish -> coral legyezők
-+ Tall grass / Short grass -> flax seeds
 + Cleanup kubejs
 - Cleanup mod list (unused libraries)
 - Recipe conflicts check
@@ -136,7 +125,6 @@
 + wooden buckets "Milk favödörben"
 + Vanilla Backport fordítások
 + Create: Dragons Plus
-+ Ex Deorum fordítás
 + Ennek a modpacknak a fordításai ne menjenek a translation packba
 + 'Fully infested' string missing
 + AdvancedAE fordítás
@@ -172,15 +160,10 @@
 + Starter island types: hard (without chest), default (with chest lava and ice) and easy (with a minimal AE2 setup and extra items)
 + No starter loot or chest (on hard map) generates
 + Structures generate: strongholds, trial chambers, monuments, nether fortress and end cities
++ All biomes generate, all structure bounding boxes generate
 + Increased spread for monuments and trial chambers
 
-+ Kezdő sziget készítés -> https://modrinth.com/mod/skyblock-builder + https://modrinth.com/datapack/sky-void-additions
-+ Biomok fixelve (minden engedélyezved)
-+ Bounding Box check (Megy)
-+ ~~Structure:trial_chambers letilt ? kalapács, wind charge!~~ 
-
 ## Recipes
-+ Silk worm drop rate increased
 + Advanced Peripherals Manual not in inventory by default and it is now craftable
 + Added recipes for Easy Mob Farm Level 3 templates with diamonds instead of netherite
 + Craftable Sculk
@@ -190,20 +173,26 @@
 + Create Netherrack by mixing cobblestone and nether wart
 + Create Obsidian by mixing water and lava
 + Create Coal by compacting charcoal
++ Craft Dirt from Dirt Pieces
++ Craft Grass from Dirt Pieces + Seeds
++ Craft Mycelium from Dirt + Mushrooms
 + AE2 presses can be inscribed
-+ Skulk can be shifted to get: skulk sensor, skulk catalyst and skulk shrieker
-+ Sieve Resin from Coarse Dirt
-+ Sieve Farmers Delight crops from Coarse Dirt
-+ Sieve Pale oak sapling from Moss block
++ Sieve Farmers Delight crops from Dirt
++ Sieve Pale oak sapling from Leaves
+- Skulk can be shifted to get: skulk sensor, skulk catalyst and skulk shrieker
+- Sieve Resin from Coarse Dirt
+- Sieve Flax seeds from Grass
++ Extrude dirt from water and gravel
 
 ## Loot
 + Wither drops ancient debris
 + Husk drops zinc_nugget
-+ Zombies drop andesite
-+ ~~Fishing loot~~
++ Zombies drop andesite and iron_nuggets
++ Fishing junk loot added kelp
++ Tropical fish drop coral fans
++ Grass drops flax seeds
 
 ## Advancements
-- Own advancements (Remove some vanilla and modded ones)
 
 ## Progression
 - Fa -> Komposztáló -> Levelek -> Csontliszt
