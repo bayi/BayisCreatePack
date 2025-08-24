@@ -16,7 +16,6 @@ ServerEvents.recipes((event) => {
 
 // @TODO: Add dirt clumps as a possible output + seeds and other plant related items as output
 
-/*
 BlockEvents.rightClicked((event) => {
   const { block, player, item, level } = event
   if (block.id !== 'createskyblock:leaf_mulcher') return // Not a leaf mulcher
@@ -34,31 +33,3 @@ BlockEvents.rightClicked((event) => {
   // Play sound effect
   // level.playSound(player.x, player.y, player.z, 'minecraft:block.grass.break', 'block', 1.0, 1.0, false)
 })
-*/
-
-ItemEvents.entityInteracted((event) => {
-  const { entity, item, player, level } = event
-  if (item.id !== 'createskyblock:leaf_mulcher') return // Not holding a leaf mulcher
-  if (entity.type !== 'minecraft:item') return // Not an item entity
-
-  const itemStack = entity.item
-  if (!itemStack.hasTag('minecraft:leaves')) return // Item entity is not leaves
-
-  if (!player.isCreative) {
-    item.damageValue += 1 // Damage the leaf mulcher by 1
-    if (item.damageValue >= item.maxDamage) {
-      item.damageValue = item.maxDamage
-    }
-    player.setMainHandItem(item) // Update the player's main hand item
-  }
-
-  const rand = Math.random()
-  entity.remove() // Remove the item entity
-  level.spawnItemEntity(player.x, player.y + 1, player.z, Item.of('minecraft:dirt', rand < 0.1 ? 2 : 1)) // Spawn dirt at player's position
-
-  event.cancel() // Prevent default interaction
-
-  // Play sound effect
-  // level.playSound(player.x, player.y, player.z, 'minecraft:block.grass.break', 'block', 1.0, 1.0, false)
-})
-
