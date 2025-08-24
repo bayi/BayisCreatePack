@@ -50,6 +50,5 @@
 - Len -> Fonál -> Fonál háló
 - Föld szitálás -> Kő kavics -> Kő
 - Fa -> Zúzó kalapács -> Kő -> Sóder -> Homok -> Por
-
-- Kezdeti kő a melterhez ? -> Kő kavics (Föld szitálás) -> Kell föld ! (Megoldva)
-- Vas?
+- Sóder -> Szitálás -> Vasrög, Cinkrög + Kő kavics
+- Andezitötvözet -> Jobb klikk -> kemence -> olvasztó
