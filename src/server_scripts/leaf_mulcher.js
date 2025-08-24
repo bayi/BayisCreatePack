@@ -34,7 +34,18 @@ BlockEvents.rightClicked((event) => {
   }
 
   const rand = Math.random()
-  block.popItem(Item.of('minecraft:dirt', rand < 0.1 ? 2 : 1)) // 10% chance to drop 2 dirt, otherwise 1 dirt
+  const count = Math.floor(Math.random() * 6) + 1
+  block.popItem(Item.of('createskyblock:dirt_piece', count))
+
+  if (rand < 0.1) { // 10% chance to drop random seed
+    const seeds = [
+      'minecraft:wheat_seeds', 'minecraft:melon_seeds', 'minecraft:pumpkin_seeds', 'minecraft:beetroot_seeds',
+      'supplementaries:flax_seeds',
+      'farmersdelight:cabbage_seeds', 'farmersdelight:tomato_seeds',
+    ]
+    const randomSeed = seeds[Math.floor(Math.random() * seeds.length)]
+    block.popItem(Item.of(randomSeed, 1))
+  }
 
   event.cancel() // Prevent default interaction
 })
