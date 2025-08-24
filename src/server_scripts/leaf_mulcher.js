@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
   event.shaped(
     Item.of('createskyblock:leaf_mulcher', 1),
     [
-      'T T',
+      'TST',
       'PSP',
       'PPP'
     ],

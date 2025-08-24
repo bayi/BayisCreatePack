@@ -3,6 +3,6 @@
   "textures": {
     "bottom": "minecraft:block/oak_planks",
     "side": "minecraft:block/composter_side",
-    "top": "createskyblock:block/example_block"
+    "top": "createskyblock:block/leaf_mulcher_top"
   }
 }
