@@ -44,7 +44,8 @@
 
 ## Progression
 - Fa -> Komposztáló -> Levelek -> Csontliszt
+- Fa -> Levélmucsozó -> Levelek -> Föld + Magok
 - Csontlist füvön -> Magok
 
-- Kezdeti kő a melterhez ? -> Kő kavics (Föld szitálás) -> Kell föld !
+- Kezdeti kő a melterhez ? -> Kő kavics (Föld szitálás) -> Kell föld ! (Megoldva)
 - Vas?
