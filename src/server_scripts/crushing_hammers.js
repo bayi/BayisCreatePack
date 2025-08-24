@@ -22,7 +22,7 @@ BlockEvents.broken(event => {
   const drop = global.CrushingHammers.processingMap[block.id]
   if (!drop) return // Not a block that can be processed by the hammer
 
-  const tool = player.getMainHandItem()
+  const tool = player.getMainHandItem().copy()
   if (!tool.hasTag(global.CrushingHammers.tag)) return // Not holding a hammer (by tag)
 
   let maxBlocks = global.CrushingHammers.maxProcessBlocks
@@ -55,8 +55,17 @@ BlockEvents.broken(event => {
   breakConnectedBlocks(block.pos, block)
   block.popItem(Item.of(drop, brokenCount)) // Drop the processed item(s)
 
-  // Damage the hammer by brokenCount // @TODO: Not working
-  tool.damage()
+  tool.damageValue += brokenCount * 50 // Damage the hammer by brokenCount
+  if (tool.damageValue >= tool.maxDamage) {
+    /*
+    tool.count = 0 // Break the hammer
+    player.playSound('minecraft:entity.item.break')
+    */
+    tool.damageValue = tool.maxDamage
+    player.setMainHandItem(tool) // Update the player's main hand item
+    return
+  }
+  player.setMainHandItem(tool) // Update the player's main hand item
 
   event.cancel() // Prevent the default drops
 })
