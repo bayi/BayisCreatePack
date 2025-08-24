@@ -67,7 +67,7 @@
 
 # TODO
 
-## Ideas
+## General
 
 - Sculk aktiválás Wardenhez ?
 - EMI Még nem jó? -> Lehet mégis -> Fix create mechanical crafter
@@ -78,34 +78,31 @@
 - Remove Sophistaced Backpacks ?
 - Remove waystones ?
 - Modular routers?
+- Cleanup mod list (unused libraries)
+- Recipe conflicts check
++ Check all mods in EMI integration
 + ~~Structure:trial_chambers letilt ? kalapács, wind charge!~~ 
 + Kezdő sziget készítés -> https://modrinth.com/mod/skyblock-builder + https://modrinth.com/datapack/sky-void-additions
-
-## TODO
-+ A2 addonok (thins meg még valami ...) -> https://www.youtube.com/watch?v=yUcOS8J5__4 -> ExtendedAE , ME Requester, Advanced AE, ~~AE2 Things~~
-+ ~~Add AE2 plate craftable recipes -> Rejtélyes kocka a starter szigeten?~~
-+ ~~Remove Ex Deorum skyblock type (config)~~
-+ Powa2 -> napelemek helyett
-+ Check farmers delight in EMI
-+ Removed: [Skyblock Infinite](https://modrinth.com/datapack/skyblock-infinite)
-+ https://www.youtube.com/watch?v=h3-tcVAW0hY All the mods 9 To the Sky
 + ~~https://modrinth.com/mod/ex-machinis-divitiae-deorum~~
 + ~~https://modrinth.com/mod/reap-mod~~
-+ Check all mods in EMI integration
 + ~~Easy Villagers?~~
-+ Több dirt blokk alulra hogy -63 (alá) tudjunk egyszerűen menni (vagy offset)
-+ ~~2 jég az easy pályába~~
 + ~~Vein miner mod -> ? https://modrinth.com/mod/ore-excavation -> https://modrinth.com/mod/ore-harvester + tree-harvester ? -> Nope mert a kalapáccsal nem megy és a create favágó eleve egybe szedi a fát~~
 + ~~X https://modrinth.com/mod/enderio~~
++ Több dirt blokk alulra hogy -63 (alá) tudjunk egyszerűen menni (vagy offset)
++ ~~2 jég az easy pályába~~
 + https://modrinth.com/mod/slice-and-dice
 + https://modrinth.com/mod/create-trading-floor
 + ~~X https://modrinth.com/mod/create-applied-kinetics~~
 + https://modrinth.com/mod/bellsandwhistles
 + https://modrinth.com/mod/liteminer
-+ Supplementaries fordítások frissítése (* Bunting)
++ A2 addonok (things meg még valami ...) -> https://www.youtube.com/watch?v=yUcOS8J5__4 -> ExtendedAE , ME Requester, Advanced AE, ~~AE2 Things~~
++ ~~Add AE2 plate craftable recipes -> Rejtélyes kocka a starter szigeten?~~
++ Powa2 -> napelemek helyett
++ Check farmers delight in EMI
++ Removed: [Skyblock Infinite](https://modrinth.com/datapack/skyblock-infinite)
++ https://www.youtube.com/watch?v=h3-tcVAW0hY All the mods 9 To the Sky
 + Cleanup kubejs
-- Cleanup mod list (unused libraries)
-- Recipe conflicts check
++ Supplementaries fordítások frissítése (* Bunting)
 
 ## Configs
 + EMI Cheat mode -> off
