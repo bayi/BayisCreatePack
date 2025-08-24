@@ -6,8 +6,7 @@
 - Add moss sifting recipes...
 - AE2 Hogyan?
 - Advancements: Remove some, add "Skyblock"
-- Fonál háló -> durability increase
-- Fonál háló sóder szitálás -> kovakő, szén, vasrög és cinkrög
+- Cink háló jelenleg nem használt
 
 # Kezdő Lootok
 
