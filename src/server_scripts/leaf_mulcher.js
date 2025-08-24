@@ -38,8 +38,3 @@ BlockEvents.rightClicked((event) => {
 
   event.cancel() // Prevent default interaction
 })
-
-BlockEvents.placed((event) => {
-  const { block, player, item, level } = event
-  player.tell(`Placed block: ${block.id} at ${block.pos}`)
-})
