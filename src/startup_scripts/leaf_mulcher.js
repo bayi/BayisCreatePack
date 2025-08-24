@@ -8,6 +8,7 @@ StartupEvents.registry('block', event => {
     .fullBlock(false)
     .defaultCutout()
     .box(2, 0, 2, 14, 12, 14) // Make it slightly smaller than a full block
+    .noValidSpawns(true)
     .tagBlock('createskyblock:leaf_mulchers')
     .tagBlock('minecraft:mineable/axe')
 })
