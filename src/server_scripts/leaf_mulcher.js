@@ -14,8 +14,6 @@ ServerEvents.recipes((event) => {
     })
 })
 
-// @TODO: Add dirt clumps as a possible output + seeds and other plant related items as output
-
 BlockEvents.rightClicked((event) => {
   const { block, player, item, level } = event
   if (block.id !== 'createskyblock:leaf_mulcher') return // Not a leaf mulcher
