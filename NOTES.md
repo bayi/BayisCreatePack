@@ -6,6 +6,8 @@
 - Add moss sifting recipes...
 - AE2 Hogyan?
 - Advancements: Remove some, add "Skyblock"
+- Fonál háló -> durability increase
+- Fonál háló sóder szitálás -> kovakő, szén, vasrög és cinkrög
 
 # Kezdő Lootok
 
@@ -46,6 +48,9 @@
 - Fa -> Komposztáló -> Levelek -> Csontliszt
 - Fa -> Levélmucsozó -> Levelek -> Föld + Magok
 - Csontlist füvön -> Magok
+- Len -> Fonál -> Fonál háló
+- Föld szitálás -> Kő kavics -> Kő
+- Fa -> Zúzó kalapács -> Kő -> Sóder -> Homok -> Por
 
 - Kezdeti kő a melterhez ? -> Kő kavics (Föld szitálás) -> Kell föld ! (Megoldva)
 - Vas?
