@@ -80,6 +80,7 @@
 - Cleanup mod list (unused libraries)
 - Recipe conflicts check
 - KubeJS: Default options not working?
+- Remove Open Loader if default options work
 + ~~Modular routers?~~
 + Check all mods in EMI integration
 + ~~Structure:trial_chambers letilt ? kalapács, wind charge!~~ 
