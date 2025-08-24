@@ -6,6 +6,7 @@
 - Add moss sifting recipes...
 - Advancements: Remove some, add "Skyblock"
 - Cink háló jelenleg nem használt
+- Remove Sophistaced Backpacks ?
 
 # Kezdő Lootok
 
