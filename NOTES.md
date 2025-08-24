@@ -60,8 +60,8 @@
 - Waystones
 - What Are They Up To
 - Wooden Bucket *
-- Wooden Shears *
 - Wooden Hopper
+- Wooden Shears *
 - Xaero's Minimap
 - Xaero's World Map *
 
@@ -75,11 +75,11 @@
 - Sifting: Zinc Mesh currently not used (add recipes)
 - Sifting: add moss recipes
 - Sifting: add sculk recipes
-- Remove Sophistaced Backpacks ?
-- Remove waystones ?
-- Modular routers?
+- Remove Sophistaced Backpacks ? -> Create Storage (Neo/Forge)
+- Remove waystones ? -> RFTools Utility + RFTools Builder + RFTools Power
 - Cleanup mod list (unused libraries)
 - Recipe conflicts check
++ ~~Modular routers?~~
 + Check all mods in EMI integration
 + ~~Structure:trial_chambers letilt ? kalapács, wind charge!~~ 
 + Kezdő sziget készítés -> https://modrinth.com/mod/skyblock-builder + https://modrinth.com/datapack/sky-void-additions
