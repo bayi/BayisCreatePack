@@ -79,6 +79,7 @@
 - Remove waystones ? -> RFTools Utility + RFTools Builder + RFTools Power
 - Cleanup mod list (unused libraries)
 - Recipe conflicts check
+- KubeJS: Default options not working?
 + ~~Modular routers?~~
 + Check all mods in EMI integration
 + ~~Structure:trial_chambers letilt ? kalapács, wind charge!~~ 
