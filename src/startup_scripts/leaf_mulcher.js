@@ -8,9 +8,6 @@ StartupEvents.registry('block', event => {
     .fullBlock(false)
     .defaultCutout()
     .box(2, 0, 2, 14, 12, 14) // Make it slightly smaller than a full block
-    .texture('bottom', 'minecraft:block/oak_planks')
-    .texture('side', 'minecraft:block/composter_side')
-    .texture('top', 'createskyblock:block/example_block')
     .tagBlock('createskyblock:leaf_mulchers')
     .tagBlock('minecraft:mineable/axe')
 })
