@@ -28,7 +28,6 @@
 ## Hard : Semmi
 
 ## TODO
-- Recipe conflicts check
 + Supplementaries fordítások frissítése (* Bunting)
 + Vasrög! -> Zombi loot hozzáad
 + Levelek szitálás recept kiegészít sápadt tölgy csemetével
@@ -39,8 +38,9 @@
 + Extruder Recept: Víz + Víz (Sóder) -> Föld
 + Loot table tropical fish -> coral legyezők
 + Tall grass / Short grass -> flax seeds
-- Cleanup kubejs
++ Cleanup kubejs
 - Cleanup mod list (unused libraries)
+- Recipe conflicts check
 
 ## Progression
 - Fa -> Komposztáló -> Levelek -> Csontliszt
