@@ -80,7 +80,8 @@
 - Cleanup mod list (unused libraries)
 - Recipe conflicts check
 - KubeJS: Default options not working?
-- Remove Open Loader if default options work
+- Powah Check
++ ~~Remove Open Loader if default options work~~ -> Nope
 + ~~Modular routers?~~
 + Check all mods in EMI integration
 + ~~Structure:trial_chambers letilt ? kalapács, wind charge!~~ 
@@ -116,7 +117,7 @@
 + ~~Add Curios slots (Backpack, Jetpack, etc)~~
 * Copy configs to git / cleanup deps
 + Valami default settings mod ( Keybinds )
-- Carry on vs AE2 key conflict
++ Carry on vs AE2 key conflict
 - Cleanup
 
 ## Resourcepack
