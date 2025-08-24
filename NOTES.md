@@ -76,13 +76,13 @@
 - Sifting: Zinc Mesh currently not used (add recipes)
 - Sifting: add moss recipes
 - Sifting: add sculk recipes
-- Remove Sophistaced Backpacks ? -> Create Storage (Neo/Forge)
-- Remove waystones ? -> RFTools Utility + RFTools Builder + RFTools Power
 - Recipe conflicts check
-- KubeJS: Default options not working?
 - Add ways to obtain dimensional shards (RFTools)
 - Add ways to obtain uranite (Powah)
 - Source: Moss and Pale Moss
++ Remove Sophistaced Backpacks ? -> Create Storage (Neo/Forge)
++ Remove waystones ? -> RFTools Utility + RFTools Builder + RFTools Power
++ KubeJS: Default options not working?
 + Powah Check
 + Cleanup mod list (unused libraries)
 + ~~Remove Open Loader if default options work~~ -> Nope
