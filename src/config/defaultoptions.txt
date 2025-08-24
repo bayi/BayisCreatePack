@@ -71,7 +71,7 @@ key_key.hide_icons:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.unknown
-key_key.carry.desc:key.keyboard.unknown
+key_key.carry.desc:key.keyboard.left.shift:CONTROL
 key_key.curios.open.desc:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
 key_key.jade.config:key.keyboard.unknown
