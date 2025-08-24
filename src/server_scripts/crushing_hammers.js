@@ -55,17 +55,9 @@ BlockEvents.broken(event => {
   breakConnectedBlocks(block.pos, block)
   block.popItem(Item.of(drop, brokenCount)) // Drop the processed item(s)
 
-  tool.damageValue += brokenCount * 50 // Damage the hammer by brokenCount
+  tool.damageValue += brokenCount // Damage the hammer by brokenCount
   if (tool.damageValue >= tool.maxDamage) {
-    /*
-    tool.count = 0 // Break the hammer
-    player.playSound('minecraft:entity.item.break')
-    */
     tool.damageValue = tool.maxDamage
-    player.setMainHandItem(tool) // Update the player's main hand item
-    return
   }
   player.setMainHandItem(tool) // Update the player's main hand item
-
-  event.cancel() // Prevent the default drops
 })
