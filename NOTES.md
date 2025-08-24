@@ -78,10 +78,13 @@
 - Sifting: add sculk recipes
 - Remove Sophistaced Backpacks ? -> Create Storage (Neo/Forge)
 - Remove waystones ? -> RFTools Utility + RFTools Builder + RFTools Power
-- Cleanup mod list (unused libraries)
 - Recipe conflicts check
 - KubeJS: Default options not working?
-- Powah Check
+- Add ways to obtain dimensional shards (RFTools)
+- Add ways to obtain uranite (Powah)
+- Source: Moss and Pale Moss
++ Powah Check
++ Cleanup mod list (unused libraries)
 + ~~Remove Open Loader if default options work~~ -> Nope
 + ~~Modular routers?~~
 + Check all mods in EMI integration
@@ -167,7 +170,7 @@
 ## Recipes
 + Advanced Peripherals Manual not in inventory by default and it is now craftable
 + Added recipes for Easy Mob Farm Level 3 templates with diamonds instead of netherite
-+ Craftable Sculk
++ Craftable Sculk from Dirt and Experience nuggets
 + Create Ink Sac by compacting kelp and black dye
 + Create Magma cream by haunting slime balls
 + Create Lapis Lazuli by mixing quartz and blue dye
