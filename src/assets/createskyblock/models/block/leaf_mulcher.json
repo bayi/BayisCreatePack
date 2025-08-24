@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "bottom": "kubejs:block/leaf_mulcher_bottom",
-    "side": "kubejs:block/leaf_mulcher_side",
-    "top": "kubejs:block/leaf_mulcher_top"
+    "bottom": "minecraft:block/oak_planks",
+    "side": "minecraft:block/composter_side",
+    "top": "createskyblock:block/leaf_mulcher"
   }
 }
