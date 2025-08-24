@@ -21,6 +21,7 @@
 - Create: Enchantment Industry *
 - Create: Power Loader *
 - Create: Trading floor
+- Create: Storage
 - Curios API *
 - Default World Type
 - Easy Mob Farm *
@@ -47,17 +48,17 @@
 - Particular
 - Patchouli
 - Powah! *
+- RFTools Base
+- RFTools Utility
 - Simple Voice Chat
 - Sky Void Additions ?
 - Skyblock Builder
 - Sodium
-- Sophisticated Backpacks *
 - Sound Physics Remastered
 - Supplementaries *
 - Tom's Peripherals *
 - TooManyRecipeViewers
 - Vanilla Backport *
-- Waystones
 - What Are They Up To
 - Wooden Bucket *
 - Wooden Hopper
