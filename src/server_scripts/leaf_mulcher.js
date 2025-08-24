@@ -28,7 +28,7 @@ BlockEvents.rightClicked((event) => {
   if (rand < 0.1) { // 10% chance to drop random seed
     const seeds = [
       'minecraft:wheat_seeds', 'minecraft:melon_seeds', 'minecraft:pumpkin_seeds', 'minecraft:beetroot_seeds',
-      'supplementaries:flax_seeds',
+      'supplementaries:flax_seeds', 'supplementaries:flax_seeds',
       'farmersdelight:cabbage_seeds', 'farmersdelight:tomato_seeds',
     ]
     const randomSeed = seeds[Math.floor(Math.random() * seeds.length)]
