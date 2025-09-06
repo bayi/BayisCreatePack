@@ -1,0 +1,133 @@
+https://github.com/thedarkcolour/ExDeorum/tree/1.21.1/src/generated/resources/data/exdeorum/recipe/sieve
+
+crushed_blackstone:
+  ancient_debris
+  basalt_pebble -
+  black_dye -
+  blackstone_pebble
+  gold_nugget
+  gunpowder
+  magma_cream
+
+crushed_deepslate:
+  amethyst_shard
+  copper_ore
+  deepslate_pebble
+  diamond
+  emerald
+  gold_ore
+  iron_ore
+  lapis_lazuli
+  all ores* ~
+  tuff_pebble ~
+  diamond ~
+  emerald ~
+
+crushed_endstone:
+  chorus_flower
+  chorus_fruit
+  ender_eye
+  ender_pearl
+  echo_shard +
+    
+crushed_netherrack:
+  basalt_pebble -
+  blackstone_pebble
+  blaze_powder
+  crimson_nylium_spores -
+  gold_nugget / raw_gold
+  gunpowder
+  magma_cream
+  quartz
+  warped_nylium_seeds -
+
+dirt:
+  andesite_pebble ~
+  bamboo
+  beetroot_seeds -
+  carrot
+  diorite_pebble ~
+  flint
+  granite_pebble ~
+  pink_petals ~
+  grass_seeds
+  melon_seeds
+  mycelium_spores
+  potato
+  pumpkin_seeds
+  stone_pebble
+  sugar_cane
+  sweet_berries ~
+  wheat_seeds
+  deepslate_pebble +
+
+dust:
+  blaze_powder
+  bone_meal
+  certus_quartz_dust
+  glowstone_dust
+  gunpowder
+  redstone
+  sky_dust
+  iron_nugget +
+  gold_nugget +
+
+gravel:
+  amethyst_shard
+  coal
+  copper_ore
+  diamond
+  emerald
+  flint
+  gold_ore
+  iron_ore
+  lapis_lazuli
+  stone_pebble
+  zinc_ore
+  pointed_dripstone ~
+  diorite_pebble ~
+  andesite_pebble ~
+
+moss:
+  sapplings*
+  azalea
+  big_dripleaf
+  dead_bush
+  glow_berries
+  mangrove_propagule
+  small_dripleaf
+  spore_blossom
+  glow_lichen ~
+  lily_pad ~
+  sweet berries ~
+
+red_sand:
+  cactus
+  dead_bush -
+  gold_nugget
+  redstone
+
+sand:
+  cactus
+  certus_quartz_crystal
+  charged_certus_quartz
+  dead_bush
+  flint
+  gold_nugget
+  iron_nugget
+  kelp
+  sea_pickle
+  prismarine_crystal +
+  prismarine_shard +
+  random_pottery_sher ~
+
+soul_sand:
+  bone -
+  ghast_tear
+  glowstone_dust
+  gunpowder
+  nether_wart
+  nether quartz
+  gold_nugget +
+  crimson_nylium_spores ~
+  warped_nylium_seeds ~
