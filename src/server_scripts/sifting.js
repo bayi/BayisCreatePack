@@ -5,7 +5,6 @@ ServerEvents.recipes(event => {
 
 const meshes = {
   tier1: [ 'createsifter:string_mesh', 'createsifter:andesite_mesh', ],
-    // @TODO: iron_mesh
   tier2: [ 'createsifter:zinc_mesh' ],
   tier3: [ 'createsifter:brass_mesh', 'createsifter:sturdy_mesh' ],
   tier4: [ 'createsifter:advanced_brass_mesh', 'createsifter:advanced_sturdy_mesh' ]
@@ -13,7 +12,7 @@ const meshes = {
 
 const siftingRecipes = [
   {
-    input: 'minecraft:dirt', time: 100, waterlogged: false,
+    input: 'minecraft:dirt', time: 400, waterlogged: false,
     tier1: [
       // Pebbles
       Output.of('createsifter:stone_pebble', 0.25),
@@ -89,8 +88,9 @@ const siftingRecipes = [
     ]
   },
   {
-    input: 'minecraft:dirt', time: 200, waterlogged: true,
+    input: 'minecraft:dirt', time: 400, waterlogged: true,
     tier1: [
+      // Ocean stuff
       Output.of('minecraft:kelp', 0.25),
       Output.of('minecraft:tube_coral', 0.05),
       Output.of('minecraft:brain_coral', 0.05),
@@ -102,6 +102,281 @@ const siftingRecipes = [
       Output.of('minecraft:prismarine_crystals', 0.1),
     ]
   },
+  {
+    input: 'minecraft:gravel', time: 300, waterlogged: false,
+    tier1: [
+      // Pebbles
+      Output.of('createsifter:stone_pebble', 3),
+      Output.of('createsifter:andesite_pebble', 0.3),
+      Output.of('createsifter:diorite_pebble', 0.3),
+      Output.of('createsifter:granite_pebble', 0.3),
+      // Resources
+      Output.of('minecraft:flint', 0.5),
+      Output.of('minecraft:coal', 0.25),
+      Output.of('minecraft:iron_nugget', 2),
+      Output.of('create:zinc_nugget', 2),
+    ],
+    tier2: [
+      // Pebbles
+      Output.of('createsifter:stone_pebble', 3),
+      Output.of('createsifter:andesite_pebble', 0.5),
+      Output.of('createsifter:diorite_pebble', 0.5),
+      Output.of('createsifter:granite_pebble', 0.5),
+      Output.of('createsifter:deepslate_pebble', 0.1),
+    ],
+    tier3: [
+      // Resources
+      Output.of('minecraft:flint', 0.25),
+      Output.of('minecraft:coal', 0.5),
+      Output.of('minecraft:amethyst_shard', 0.05),
+      // Nuggets
+      Output.of('create:copper_nugget', 0.1),
+      Output.of('minecraft:iron_nugget', 0.1),
+      Output.of('minecraft:gold_nugget', 0.1),
+      Output.of('create:zinc_nugget', 0.1),
+      Output.of('create:brass_nugget', 0.1),
+    ],
+    tier4: [
+      // Pebbles
+      Output.of('createsifter:deepslate_pebble', 0.3),
+      // Resources
+      Output.of('minecraft:coal', 0.5),
+      Output.of('create:crushed_raw_iron', 0.25),
+      Output.of('create:crushed_raw_zinc', 0.25),
+      Output.of('create:crushed_raw_gold', 0.25),
+      Output.of('create:crushed_raw_copper', 0.25),
+      Output.of('minecraft:lapis_lazuli', 0.1),
+    ],
+  },
+  {
+    input: 'minecraft:gravel', time: 300, waterlogged: true,
+    tier1: [
+      Output.of('minecraft:clay_ball', 0.5),
+      // Large Flowers
+      Output.of('minecraft:sunflower', 0.1),
+      Output.of('minecraft:lilac', 0.1),
+      Output.of('minecraft:rose_bush', 0.1),
+      Output.of('minecraft:peony', 0.1),
+    ],
+    tier3: [
+      Output.of('minecraft:clay_ball', 0.5),
+      // Flowers
+      Output.of('minecraft:dandelion', 0.1),
+      Output.of('minecraft:poppy', 0.1),
+      Output.of('minecraft:blue_orchid', 0.1),
+      Output.of('minecraft:allium', 0.1),
+      Output.of('minecraft:azure_bluet', 0.1),
+      Output.of('minecraft:red_tulip', 0.1),
+      Output.of('minecraft:orange_tulip', 0.1),
+      Output.of('minecraft:white_tulip', 0.1),
+      Output.of('minecraft:pink_tulip', 0.1),
+      Output.of('minecraft:oxeye_daisy', 0.1),
+      Output.of('minecraft:cornflower', 0.1),
+      Output.of('minecraft:lily_of_the_valley', 0.1),
+      Output.of('vanillabackport:closed_eyeblossom', 0.05),
+      Output.of('minecraft:wither_rose', 0.01),
+    ],
+    tier4: [
+      // Mushrooms
+      Output.of('minecraft:brown_mushroom', 0.2),
+      Output.of('minecraft:red_mushroom', 0.2),
+      Output.of('minecraft:crimson_fungus', 0.2),
+      Output.of('minecraft:warped_fungus', 0.2),
+      Output.of('minecraft:nether_wart', 0.1),
+    ]
+  },
+  {
+    input: 'minecraft:sand', time: 200, waterlogged: false,
+    tier1: [
+      Output.of('ae2:certus_quartz_crystal', 0.05),
+      Output.of('minecraft:clay_ball', 0.5),
+      Output.of('minecraft:dead_bush', 0.1),
+      Output.of('minecraft:cactus', 0.1),
+    ],
+    tier2: [
+      Output.of('minecraft:clay_ball', 0.5),
+      Output.of('minecraft:dead_bush', 0.1),
+      Output.of('minecraft:cactus', 0.1),
+      Output.of('minecraft:pointed_dripstone', 0.1),
+    ],
+    tier3: [
+      Output.of('minecraft:bone', 0.05),
+      Output.of('minecraft:redstone', 0.05),
+      Output.of('minecraft:gunpowder', 0.05),
+      Output.of('minecraft:gold_nugget', 0.05),
+      Output.of('createsifter:diorite_pebble', 0.5),
+      Output.of('createsifter:granite_pebble', 0.5),
+      Output.of('createsifter:andesite_pebble', 0.5),
+    ],
+    tier4: [
+      Output.of('minecraft:bone', 0.1),
+      Output.of('minecraft:redstone', 0.1),
+      Output.of('minecraft:gunpowder', 0.1),
+      Output.of('create:crushed_raw_gold', 0.2),
+      Output.of('create:crushed_raw_copper', 0.2),
+      Output.of('create:crushed_raw_zinc', 0.2),
+      Output.of('create:crushed_raw_iron', 0.2),
+      Output.of('minecraft:diamond', 0.01),
+      Output.of('minecraft:emerald', 0.01),
+      Output.of('create:experience_nugget', 0.5),
+    ]
+  },
+  {
+    input: 'minecraft:sand', time: 200, waterlogged: true,
+    tier1: [
+      Output.of('minecraft:kelp', 0.25),
+      Output.of('minecraft:sea_pickle', 0.1),
+    ],
+    tier2: [
+      Output.of('minecraft:angler_pottery_sherd', 0.1),
+      Output.of('minecraft:archer_pottery_sherd', 0.1),
+      Output.of('minecraft:arms_up_pottery_sherd', 0.1),
+      Output.of('minecraft:blade_pottery_sherd', 0.1),
+      Output.of('minecraft:brewer_pottery_sherd', 0.1),
+      Output.of('minecraft:burn_pottery_sherd', 0.1),
+      Output.of('minecraft:danger_pottery_sherd', 0.1),
+      Output.of('minecraft:explorer_pottery_sherd', 0.1),
+      Output.of('minecraft:friend_pottery_sherd', 0.1),
+      Output.of('minecraft:heart_pottery_sherd', 0.1),
+      Output.of('minecraft:heartbreak_pottery_sherd', 0.1),
+      Output.of('minecraft:howl_pottery_sherd', 0.1),
+      Output.of('minecraft:miner_pottery_sherd', 0.1),
+      Output.of('minecraft:mourner_pottery_sherd', 0.1),
+      Output.of('minecraft:plenty_pottery_sherd', 0.1),
+      Output.of('minecraft:prize_pottery_sherd', 0.1),
+      Output.of('minecraft:sheaf_pottery_sherd', 0.1),
+      Output.of('minecraft:shelter_pottery_sherd', 0.1),
+      Output.of('minecraft:skull_pottery_sherd', 0.1),
+      Output.of('minecraft:snort_pottery_sherd', 0.1),
+      Output.of('minecraft:flow_pottery_sherd', 0.1),
+      Output.of('minecraft:guster_pottery_sherd', 0.1),
+      Output.of('minecraft:scrape_pottery_sherd', 0.1),
+    ],
+    tier3: [
+      Output.of('minecraft:prismarine_shard', 0.1),
+      Output.of('minecraft:prismarine_crystals', 0.1),
+      Output.of('minecraft:heart_of_the_sea', 0.01),
+      Output.of('create:experience_nugget', 0.5),
+    ],
+    tier4: [ // @TODO: Loot tables
+      Output.of('minecraft:suspicious_gravel', 0.1),
+      Output.of('minecraft:suspicious_sand', 0.1), 
+    ]
+  },
+  {
+    input: 'minecraft:red_sand', time: 200, waterlogged: false,
+    tier1: [
+      Output.of('minecraft:clay_ball', 0.5),
+      Output.of('minecraft:dead_bush', 0.1),
+      Output.of('minecraft:cactus', 0.1),
+    ],
+    tier2: [
+      Output.of('minecraft:clay_ball', 0.5),
+      Output.of('minecraft:dead_bush', 0.1),
+      Output.of('minecraft:cactus', 0.1),
+      Output.of('minecraft:pointed_dripstone', 0.1),
+    ],
+    tier3: [
+      Output.of('minecraft:bone', 0.05),
+      Output.of('minecraft:redstone', 0.25),
+      Output.of('minecraft:gold_nugget', 0.05),
+      Output.of('createsifter:diorite_pebble', 0.5),
+      Output.of('createsifter:granite_pebble', 0.5),
+      Output.of('createsifter:andesite_pebble', 0.5),
+    ],
+    tier4: [
+      Output.of('minecraft:redstone', 0.5),
+      Output.of('minecraft:spider_eye', 0.1),
+      Output.of('create:crushed_raw_gold', 0.2),
+      Output.of('create:crushed_raw_copper', 0.2),
+      Output.of('create:crushed_raw_zinc', 0.2),
+      Output.of('create:crushed_raw_iron', 0.2),
+      Output.of('create:experience_nugget', 0.5),
+    ]
+  },
+  {
+    input: 'createsifter:dust', time: 200, waterlogged: false,
+    tier1: [
+      Output.of('createskyblock:certus_quartz_seeds', 0.1),
+      Output.of('createskyblock:amethyst_seeds', 0.1),
+      Output.of('minecraft:redstone', 0.1),
+      Output.of('minecraft:glowstone_dust', 0.1),
+      Output.of('vanillabackport:resin_clump', 0.1),
+    ],
+    tier2: [
+      Output.of('ae2:sky_dust', 0.1),
+      Output.of('minecraft:redstone', 0.25),
+      Output.of('minecraft:glowstone_dust', 0.1),
+      Output.of('minecraft:gunpowder', 0.1),
+      Output.of('ae2:certus_quartz_dust', 0.1),
+      Output.of('minecraft:bone_meal', 0.5),
+      Output.of('vanillabackport:resin_clump', 0.1),
+    ]
+  },
+  {
+    input: 'minecraft:moss_block', time: 300, waterlogged: false,
+    tier2: [
+      Output.of('minecraft:big_dripleaf', 0.1),
+      Output.of('minecraft:dead_bush', 0.1),
+      Output.of('minecraft:small_dripleaf', 0.1),
+      Output.of('minecraft:spore_blossom', 0.1),
+      Output.of('minecraft:glow_lichen', 0.1),
+      Output.of('minecraft:lily_pad', 0.1),
+      Output.of('minecraft:cobweb', 0.05),
+    ],
+    tier4: [
+      Output.of('minecraft:sculk_vein', 0.1),
+      Output.of('minecraft:sculk_sensor', 0.1),
+      Output.of('minecraft:sculk_catalyst', 0.05),
+      Output.of('minecraft:sculk_shrieker', 0.05),
+    ]
+  },
+  {
+    input: '#minecraft:leaves', time: 100, waterlogged: false, 
+    tier1: [
+      Output.of('minecraft:oak_sapling', 0.1),
+      Output.of('minecraft:spruce_sapling', 0.1),
+      Output.of('minecraft:birch_sapling', 0.1),
+      Output.of('minecraft:jungle_sapling', 0.1),
+      Output.of('minecraft:acacia_sapling', 0.1),
+      Output.of('minecraft:dark_oak_sapling', 0.1),
+      Output.of('minecraft:cherry_sapling', 0.1),
+      Output.of('vanillabackport:pale_oak_sapling', 0.1),
+      Output.of('minecraft:mangrove_propagule', 0.1),
+      Output.of('minecraft:azalea', 0.05),
+      Output.of('minecraft:flowering_azalea', 0.05),
+    ]
+  },
+  {
+    input: 'createsifter:crushed_netherrack', time: 500, waterlogged: false,
+    tier1: [
+      Output.of('minecraft:nether_wart', 0.1),
+      Output.of('minecraft:soul_sand', 0.25),
+      Output.of('minecraft:soul_soil', 0.25),
+      Output.of('createskyblock:warped_nylium_seeds', 0.1),
+      Output.of('createskyblock:crimson_nylium_seeds', 0.1),
+    ],
+    tier3: [
+      Output.of('createsifter:basalt_pebble', 0.3),
+      Output.of('createsifter:blackstone_pebble', 0.3),
+      Output.of('createsifter:tuff_pebble', 0.3),
+      Output.of('minecraft:nether_wart', 0.1),
+      Output.of('minecraft:quartz', 0.05),
+    ]
+  },
+  // miencrfat:soul_sand
+  // tier1: minecraft:bone, miencraft:ghast_tear, minecraft:glowstone_dust, minecraft:gunpowder, minecraft:quartz, minecraft:nether_wart, create:experience_nugget, minecraft:ghast_tear
+  {
+    input: 'minecraft:soul_sand', time: 400, waterlogged: false,
+    tier1: [
+      Output.of('minecraft:bone', 0.1),
+      Output.of('minecraft:glowstone_dust', 0.1),
+      Output.of('minecraft:gunpowder', 0.1),
+      Output.of('minecraft:quartz', 0.1),
+      Output.of('minecraft:nether_wart', 0.1),
+      Output.of('create:experience_nugget', 0.5),
+    ]
+  }
 ]
 
 // Add sifting recipes
@@ -109,12 +384,16 @@ ServerEvents.recipes(event => {
   for(const recipe of siftingRecipes) {
     let { input, time, advancedSifter, waterlogged } = recipe
     Object.keys(meshes).forEach(tier => {
+      let firstTier = null
       let prevTier = 'tier1'
       for(const mesh of meshes[tier]) {
         let tierItems = recipe[tier]
         if (!tierItems) tierItems = recipe[prevTier]
+        if (!tierItems && firstTier) tierItems = firstTier
         if (!tierItems) tierItems = recipe['tier1']
         if (!tierItems) continue
+        if (!firstTier) firstTier = tierItems
+        if (tierItems.length === 0) continue
         event.recipes.createsifter.sifting(
           tierItems,
           input,

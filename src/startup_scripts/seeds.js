@@ -24,7 +24,20 @@ const seeds = {
       color: '#972627',
       use_on: 'minecraft:netherrack',
       result: 'minecraft:crimson_nylium'
-    }
+    },
+    {
+      key: 'createskyblock:certus_quartz_seeds',
+      color: '#8ABBEF',
+      use_on: 'ae2:sky_stone_block',
+      result: 'ae2:flawless_budding_quartz'
+    },
+    {
+      key: 'createskyblock:amethyst_seeds',
+      color: '#C48DEB',
+      use_on: 'minecraft:stone',
+      result: 'minecraft:budding_amethyst'
+    },
+    // @TODO: Seed (Core) for activating skulk_catalyst
   ],
 }
 
