@@ -16,6 +16,14 @@
     {
       "chance": 0.05,
       "id": "farmersdelight:onion"
+    },
+    {
+      "chance": 0.1,
+      "id": "createskyblock:grass_seeds"
+    },
+    {
+      "chance": 0.1,
+      "id": "createskyblock:mycelium_seeds"
     }
   ]
 }
