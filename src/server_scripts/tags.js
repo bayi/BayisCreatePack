@@ -1,5 +1,7 @@
 ServerEvents.tags('items', (event) => {
 
+  // const stones = event.get('forge:stone').getObjectIds()
+
   // event.add('c:seeds', 'supplementaries:flax_seeds')
 
   /*
