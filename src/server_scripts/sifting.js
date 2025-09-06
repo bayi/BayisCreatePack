@@ -322,6 +322,7 @@ const siftingRecipes = [
       Output.of('minecraft:spore_blossom', 0.1),
       Output.of('minecraft:glow_lichen', 0.1),
       Output.of('minecraft:lily_pad', 0.1),
+      Output.of('minecraft:vine', 0.1),
       Output.of('minecraft:cobweb', 0.05),
     ],
     tier4: [

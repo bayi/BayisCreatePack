@@ -128,6 +128,7 @@
 * Copy configs to git / cleanup deps
 + Valami default settings mod ( Keybinds )
 + Carry on vs AE2 key conflict
+- Keybind mod (with search)
 - Cleanup
 
 ## Resourcepack
