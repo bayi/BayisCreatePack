@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ABA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "create:experience_nugget"
+    },
+    "B": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "id": "minecraft:infested_cobblestone",
+    "count": 1
+  }
+}
