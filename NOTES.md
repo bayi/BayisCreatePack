@@ -184,11 +184,11 @@
 + Create Obsidian by mixing water and lava
 + Create Coal by compacting charcoal
 + Craft Dirt from Dirt Pieces
-+ Craft Grass from Dirt Pieces + Seeds
-+ Craft Mycelium from Dirt + Mushrooms
 + AE2 presses can be inscribed
 + Sieve Farmers Delight crops from Dirt
 + Sieve Pale oak sapling from Leaves
++ Crush Dirt to get Dust
++ Mix Gravel and Water to get Moss
 - Skulk can be shifted to get: skulk sensor, skulk catalyst and skulk shrieker
 - Sieve Resin from Coarse Dirt
 - Sieve Flax seeds from Grass

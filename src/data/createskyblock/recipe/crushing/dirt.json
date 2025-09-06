@@ -1,0 +1,14 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    }
+  ], 
+	"results": [
+		{
+			"id": "createsifter:dust",
+			"count": 4
+		}
+	]
+}
