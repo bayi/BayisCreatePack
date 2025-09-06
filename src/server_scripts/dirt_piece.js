@@ -21,7 +21,7 @@ ServerEvents.recipes((event) => {
     ],
     {
       D: 'createskyblock:dirt_piece',
-      S: 'minecraft:wheat_seeds'
+      S: 'createskyblock:grass_seeds'
     }
   )
 })
