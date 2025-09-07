@@ -35,4 +35,3 @@
 # TODO:
 * Tömörített blockkok (2x, 4x, 8x: Föld, Zúzottkő, Sóder, Homok) MEGA tömörítés check
 - Föld jobb klikkel (kalapács) -> föld darab, kő darabok
-- Recipe ID Errors (same ID)

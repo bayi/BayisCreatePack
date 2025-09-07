@@ -75,6 +75,7 @@
 - Advancements: Remove some, add "Skyblock"
 - Recipe conflicts check
 - Release előtt beállítások ( pl EMI Dev mode )
+- Fix KubeJS Recipe ID Errors (same ID)
 + Source: Moss and Pale Moss (Mixin water and gravel)
 + ~~Add ways to obtain dimensional shards (RFTools)~~ -> Craftable
 + Add ways to obtain uranite (Powah)
