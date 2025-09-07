@@ -357,6 +357,7 @@ const siftingRecipes = [
       Output.of('minecraft:nether_wart', 0.1),
       Output.of('minecraft:soul_sand', 0.25),
       Output.of('minecraft:soul_soil', 0.25),
+      Output.of('minecraft:quartz', 0.05),
       Output.of('createskyblock:warped_nylium_seeds', 0.1),
       Output.of('createskyblock:crimson_nylium_seeds', 0.1),
     ],
@@ -365,7 +366,7 @@ const siftingRecipes = [
       Output.of('createsifter:blackstone_pebble', 0.3),
       Output.of('createsifter:tuff_pebble', 0.3),
       Output.of('minecraft:nether_wart', 0.1),
-      Output.of('minecraft:quartz', 0.05),
+      Output.of('minecraft:quartz', 0.1),
     ]
   },
   {

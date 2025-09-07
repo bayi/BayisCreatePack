@@ -34,36 +34,8 @@
 + Create: dísz blokkok (Extrudálás)
 
 # TODO:
-- Zúzott netherrack sima szitálás:
-    - Bazalt kavics
-    - Fekető kavics
-    - Tufa kavics
-    - Netherkvarc
-    - Lélekhomok
-    - Lélektalaj
-    - Nether bibircsók
-+ Föld szitálás:
-    + Mélypala kavics
-+ Moha valahonnan?
-+ Mag kell a torz/karmazsin füvekhez (biztos? piglinek adják)
-
-- Orrontó ?
-- Békák ?
 * Sablonok?
-+ Prizmarin cuccok ?
-+ Virágok ?
-+ Cseréptöredékek
-+ Zászlóminták
 
-+ Exdeorum meg skyblock void additions recepteket megnézni
-
-+ Magok:
-    + Fű mag (Föld -> Fű blokk)
-    + Mycellium mag (Föld -> Mycellium)
-    + Torz nylium (Netherrack)
-    + Karmazsin nylium (Netherrack)
-    + Budding certus quartz seed (Budding certus quartz)
-    + Budding amethyst seed (Budding amethyst)
-
-- Tömörített blockkok (2x, 4x, 8x: Föld, Zúzottkő, Sóder, Homok, Por) MEGA tömörítés check
+* Tömörített blockkok (2x, 4x, 8x: Föld, Zúzottkő, Sóder, Homok, Por) MEGA tömörítés check
+- Föld jobb klikkel (kalapács) -> föld darab, kő darabok
 
