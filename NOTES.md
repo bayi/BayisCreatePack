@@ -78,7 +78,7 @@
 + Add ways to obtain uranite (Powah)
 * Source: Moss and Pale Moss
 - Release előtt beállítások ( pl EMI Dev mode )
-- Disable: Wireless terminals from extended-ae
++ ~~Disable: Wireless terminals from extended-ae~~ -> Nope
 + Sculk aktiválás Wardenhez ? (-> Add Sculk core to activate)
 + Sifting: Zinc Mesh currently not used (add recipes)
 + Sifting: add moss recipes
