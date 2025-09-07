@@ -190,10 +190,10 @@
 + Sieve Pale oak sapling from Leaves
 + Crush Dirt to get Dust
 + Mix Gravel and Water to get Moss
-- Moss can be shifted to get: Sculk sensor, Sculk catalyst and Sculk shrieker
-- Sieve Resin from Coarse Dirt
-- Sieve Flax seeds from Grass
-+ Extrude dirt from water and gravel
++ Extrude dirt from Blue ice + water and Gravel catalyst
++ Moss can be shifted to get: Sculk sensor, Sculk catalyst and Sculk shrieker
++ Sieve Resin from Dust
++ Sieve Flax seeds from Dirt
 
 ## Loot
 + Wither drops ancient debris
