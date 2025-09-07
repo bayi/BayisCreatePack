@@ -25,11 +25,10 @@
 + Moha
 + Endkő: Extrudálás (Endkő) + Extrudálás (End-be) + Endezés(Create) sárkányfejjel
 + Kalcit: Kalcit kavics
-+ Csepkő ?
-+ Mangrove magonc (Iszap szitálás)
++ Cseppkő
 + Pókháló
 + Sculk
-+ Zúzottkő ezüstmollyal -> Recept hozzáad
++ Zúzottkő ezüstmollyal -> Recept
 + Pókszem
 + Create: dísz blokkok (Extrudálás)
 
