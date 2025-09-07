@@ -74,8 +74,8 @@
 - EMI Még nem jó? -> Lehet mégis -> Fix create mechanical crafter
 - Advancements: Remove some, add "Skyblock"
 - Recipe conflicts check
-* Source: Moss and Pale Moss
 - Release előtt beállítások ( pl EMI Dev mode )
++ Source: Moss and Pale Moss (Mixin water and gravel)
 + ~~Add ways to obtain dimensional shards (RFTools)~~ -> Craftable
 + Add ways to obtain uranite (Powah)
 + ~~Disable: Wireless terminals from extended-ae~~ -> Nope
