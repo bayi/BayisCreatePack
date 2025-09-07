@@ -37,7 +37,12 @@ const seeds = {
       use_on: 'minecraft:stone',
       result: 'minecraft:budding_amethyst'
     },
-    // @TODO: Seed (Core) for activating skulk_catalyst
+    {
+      key: 'createskyblock:sculk_core',
+      color: '#021419',
+      use_on: 'minecraft:sculk_shrieker',
+      result: undefined // Result is handled in BlockEvents.rightClicked
+    }
   ],
 }
 
