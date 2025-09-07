@@ -12,11 +12,7 @@ BlockEvents.rightClicked(event => {
           if (entity) {
             const properties = block.getProperties()
             const newProperties = {}
-            for (const prop in properties) {
-              newProperties[prop] = properties[prop]
-              player.tell(`${prop}: ${properties[prop]}`)
-            }
-            player.tell(`Properties: ${JSON.stringify(newProperties)}`)
+            for (const prop in properties) newProperties[prop] = properties[prop]
             if (!newProperties.can_summon || newProperties.can_summon === 'false') {
               newProperties.can_summon = true
               block.set(block.id, newProperties)

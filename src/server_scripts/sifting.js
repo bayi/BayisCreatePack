@@ -334,6 +334,10 @@ const siftingRecipes = [
       Output.of('minecraft:vine', 0.1),
       Output.of('minecraft:cobweb', 0.05),
     ],
+    tier2: [
+      Output.of('minecraft:sculk', 0.2),
+      Output.of('createskyblock:sculk_core', 0.1),
+    ],
     tier4: [
       Output.of('minecraft:sculk', 0.2),
       Output.of('minecraft:sculk_sensor', 0.1),
