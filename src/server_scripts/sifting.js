@@ -258,9 +258,12 @@ const siftingRecipes = [
       Output.of('minecraft:heart_of_the_sea', 0.01),
       Output.of('create:experience_nugget', 0.5),
     ],
-    tier4: [ // @TODO: Loot tables
-      Output.of('minecraft:suspicious_gravel', 0.1),
-      Output.of('minecraft:suspicious_sand', 0.1), 
+    tier4: [
+      Output.of('minecraft:sniffer_egg', 0.05),
+      Output.of('minecraft:music_disc_relic', 0.01),
+      Output.of('minecraft:music_disc_pigstep', 0.01),
+      Output.of('minecraft:music_disc_otherside', 0.01),
+      Output.of('minecraft:music_disc_5', 0.01),
     ]
   },
   {
@@ -365,8 +368,6 @@ const siftingRecipes = [
       Output.of('minecraft:quartz', 0.05),
     ]
   },
-  // miencrfat:soul_sand
-  // tier1: minecraft:bone, miencraft:ghast_tear, minecraft:glowstone_dust, minecraft:gunpowder, minecraft:quartz, minecraft:nether_wart, create:experience_nugget, minecraft:ghast_tear
   {
     input: 'minecraft:soul_sand', time: 400, waterlogged: false,
     tier1: [
