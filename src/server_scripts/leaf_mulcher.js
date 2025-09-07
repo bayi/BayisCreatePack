@@ -11,7 +11,7 @@ ServerEvents.recipes((event) => {
       P: '#minecraft:planks',
       T: '#minecraft:slabs',
       S: 'woodenshears:wooden_shears',
-    })
+    }).id('createskyblock:leaf_mulcher')
 })
 
 BlockEvents.rightClicked((event) => {

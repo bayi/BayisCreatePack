@@ -12,7 +12,7 @@ for (const item  of global.CrushingHammers.items) {
       {
         A: item[1],
         S: 'minecraft:stick'
-      })
+      }).id(`createskyblock:crushing_hammers/${item[0].split(':')[1]}_from_${item[1].split(':')[1]}`)
   })
 }
 

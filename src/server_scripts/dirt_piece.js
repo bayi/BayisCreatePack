@@ -9,10 +9,7 @@ ServerEvents.recipes((event) => {
     {
       D: 'createskyblock:dirt_piece'
     }
-  )
-})
-
-ServerEvents.recipes((event) => {
+  ).id('createskyblock:dirt_from_dirt_pieces_simple')
   event.shaped(
     Item.of('minecraft:grass_block', 1),
     [
@@ -23,5 +20,5 @@ ServerEvents.recipes((event) => {
       D: 'createskyblock:dirt_piece',
       S: 'createskyblock:grass_seeds'
     }
-  )
+  ).id('createskyblock:grass_block_from_dirt_pieces')
 })
