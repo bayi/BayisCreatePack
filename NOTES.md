@@ -76,6 +76,10 @@
 - Recipe conflicts check
 - Release előtt beállítások ( pl EMI Dev mode )
 - Fix KubeJS Recipe ID Errors (same ID)
+- Add: Sponge -> (Remove ocean monument generation)
+- Remove trial chambes ?
+- Add: Dragon head -> (Remove end cities generation)
+- Remove swamp huts ?
 + Source: Moss and Pale Moss (Mixin water and gravel)
 + ~~Add ways to obtain dimensional shards (RFTools)~~ -> Craftable
 + Add ways to obtain uranite (Powah)
