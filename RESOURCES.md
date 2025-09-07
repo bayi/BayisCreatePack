@@ -33,5 +33,5 @@
 + Create: dísz blokkok (Extrudálás)
 
 # TODO:
-* Tömörített blockkok (2x, 4x, 8x: Föld, Zúzottkő, Sóder, Homok) MEGA tömörítés check
+* Tömörített blockkok (2x, 4x, 8x: Föld, Zúzottkő, Sóder, Homok) MEGA tömörítés check (1 szintig megy)
 - Föld jobb klikkel (kalapács) -> föld darab, kő darabok
