@@ -1,4 +1,7 @@
 ServerEvents.recipes(event => {
+
+  event.remove({ type: 'create_mechanical_extruder:extruding' }) // Remove all existing extruding recipes
+
   event.recipes.create_mechanical_extruder
     .extruding(
         Item.of('minecraft:dirt'),
