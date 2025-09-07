@@ -71,19 +71,19 @@
 
 ## General
 
-- Sculk aktiválás Wardenhez ? (-> Add Sculk core to activate)
 - EMI Még nem jó? -> Lehet mégis -> Fix create mechanical crafter
 - Advancements: Remove some, add "Skyblock"
-+ Sifting: Zinc Mesh currently not used (add recipes)
-+ Sifting: add moss recipes
-+ ~~Sifting: add sculk recipes~~
 - Recipe conflicts check
 - Add ways to obtain dimensional shards (RFTools)
 - Add ways to obtain uranite (Powah)
 * Source: Moss and Pale Moss
 - Release előtt beállítások ( pl EMI Dev mode )
-+ https://modrinth.com/mod/extended-ae -> Fordítás
 - Disable: Wireless terminals from extended-ae
++ Sculk aktiválás Wardenhez ? (-> Add Sculk core to activate)
++ Sifting: Zinc Mesh currently not used (add recipes)
++ Sifting: add moss recipes
++ ~~Sifting: add sculk recipes~~
++ https://modrinth.com/mod/extended-ae -> Fordítás
 + Kezdeti netherrak az extrudáláshoz honnan? -> Többi extrudáló recept kezdeti cucca is kell (Lélekhomok szitálás, Lélekhomok honnan?)
 + Az összes info hotkey -> Shift-re ( pl AdvancedAE most Ctrl)
 + Remove Sophistaced Backpacks ? -> Create Storage (Neo/Forge)
