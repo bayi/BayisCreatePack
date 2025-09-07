@@ -1,6 +1,5 @@
 {
   "type": "create:compacting",
-  "heatRequirement": "none",
   "ingredients": [
     {
       "item": "minecraft:charcoal"

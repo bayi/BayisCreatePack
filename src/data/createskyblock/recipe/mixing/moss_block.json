@@ -1,6 +1,6 @@
 {
   "type": "create:mixing",
-  "heatRequirement": "none",
+  "heat_requirement": "none",
   "ingredients": [
     {
       "item": "minecraft:gravel"
