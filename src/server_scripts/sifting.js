@@ -145,7 +145,10 @@ const siftingRecipes = [
       Output.of('create:crushed_raw_zinc', 0.25),
       Output.of('create:crushed_raw_gold', 0.25),
       Output.of('create:crushed_raw_copper', 0.25),
-      Output.of('minecraft:lapis_lazuli', 0.1),
+      Output.of('minecraft:lapis_lazuli', 0.2),
+      Output.of('minecraft:diamond', 0.1),
+      Output.of('minecraft:emerald', 0.05),
+      Output.of('create:experience_nugget', 0.5),
     ],
   },
   {
@@ -183,6 +186,7 @@ const siftingRecipes = [
       Output.of('minecraft:crimson_fungus', 0.2),
       Output.of('minecraft:warped_fungus', 0.2),
       Output.of('minecraft:nether_wart', 0.1),
+      Output.of('minecraft:ink_sac', 0.1),
     ]
   },
   {
@@ -198,6 +202,7 @@ const siftingRecipes = [
       Output.of('minecraft:dead_bush', 0.1),
       Output.of('minecraft:cactus', 0.1),
       Output.of('minecraft:pointed_dripstone', 0.1),
+      Output.of('minecraft:ender_pearl', 0.05),
     ],
     tier3: [
       Output.of('minecraft:bone', 0.05),
@@ -216,8 +221,9 @@ const siftingRecipes = [
       Output.of('create:crushed_raw_copper', 0.2),
       Output.of('create:crushed_raw_zinc', 0.2),
       Output.of('create:crushed_raw_iron', 0.2),
-      Output.of('minecraft:diamond', 0.01),
-      Output.of('minecraft:emerald', 0.01),
+      Output.of('minecraft:lapis_lazuli', 0.1),
+      Output.of('minecraft:diamond', 0.1),
+      Output.of('minecraft:emerald', 0.05),
       Output.of('create:experience_nugget', 0.5),
     ]
   },
@@ -379,7 +385,76 @@ const siftingRecipes = [
       Output.of('minecraft:nether_wart', 0.1),
       Output.of('create:experience_nugget', 0.5),
     ]
-  }
+  },
+  {
+    input: 'createsifter:crushed_basalt', time: 500, waterlogged: false,
+    tier1: [
+      Output.of('createsifter:blackstone_pebble', 0.2),
+      Output.of('createsifter:basalt_pebble', 0.3),
+      Output.of('minecraft:magma_cream', 0.05),
+      Output.of('minecraft:gunpowder', 0.1),
+      Output.of('minecraft:blaze_powder', 0.05),
+      Output.of('minecraft:piglin_banner_pattern', 0.01),
+    ],
+    tier3: [
+      Output.of('createsifter:blackstone_pebble', 0.5),
+      Output.of('createsifter:basalt_pebble', 0.5),
+      Output.of('create:crushed_raw_gold', 0.2),
+      Output.of('minecraft:magma_cream', 0.1),
+      Output.of('minecraft:blaze_powder', 0.1),
+      Output.of('create:experience_nugget', 0.5),
+    ],
+    tier4: [
+      Output.of('minecraft:magma_cream', 0.1),
+      Output.of('minecraft:blaze_powder', 0.1),
+      Output.of('minecraft:ancient_debris', 0.05),
+    ]
+  },
+  {
+    input: 'createsifter:crushed_basalt', time: 500, waterlogged: true,
+    tier4: [
+      Output.of('minecraft:netherite_upgrade_smithing_template', 0.1),
+      Output.of('create_dragons_plus:blaze_upgrade_smithing_template', 0.1),
+      // Smithing templates
+      Output.of('minecraft:coast_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:dune_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:eye_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:flow_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:host_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:raiser_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:rib_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:sentry_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:shaper_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:silence_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:snout_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:spire_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:tide_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:vex_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:ward_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:wayfinder_armor_trim_smithing_template',0.05),
+      Output.of('minecraft:wild_armor_trim_smithing_template', 0.05),
+    ],
+  },
+  {
+    input: 'createsifter:crushed_end_stone', time: 500, waterlogged: false,
+    tier1: [
+      Output.of('minecraft:ender_pearl', 0.1),
+      Output.of('minecraft:chorus_fruit', 0.1),
+      Output.of('minecraft:chorus_flower', 0.05),
+    ],
+    tier3: [
+      Output.of('minecraft:ender_pearl', 0.2),
+      Output.of('minecraft:chorus_fruit', 0.2),
+      Output.of('minecraft:shulker_shell', 0.05),
+    ],
+    tier4: [
+      Output.of('minecraft:ender_pearl', 0.3),
+      Output.of('minecraft:chorus_fruit', 0.3),
+      Output.of('minecraft:shulker_shell', 0.1),
+      Output.of('minecraft:echo_shard', 0.05),
+      Output.of('create:experience_nugget', 0.5),
+    ]
+  },
 ]
 
 // Add sifting recipes
