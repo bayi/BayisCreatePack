@@ -186,7 +186,6 @@ const siftingRecipes = [
       Output.of('minecraft:crimson_fungus', 0.2),
       Output.of('minecraft:warped_fungus', 0.2),
       Output.of('minecraft:nether_wart', 0.1),
-      Output.of('minecraft:ink_sac', 0.1),
     ]
   },
   {
@@ -261,6 +260,7 @@ const siftingRecipes = [
     tier3: [
       Output.of('minecraft:prismarine_shard', 0.1),
       Output.of('minecraft:prismarine_crystals', 0.1),
+      Output.of('minecraft:ink_sac', 0.1),
       Output.of('minecraft:heart_of_the_sea', 0.01),
       Output.of('create:experience_nugget', 0.5),
     ],
