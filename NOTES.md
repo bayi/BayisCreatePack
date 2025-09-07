@@ -71,20 +71,20 @@
 
 ## General
 
-- Sculk aktiválás Wardenhez ?
+- Sculk aktiválás Wardenhez ? (-> Add Sculk core to activate)
 - EMI Még nem jó? -> Lehet mégis -> Fix create mechanical crafter
 - Advancements: Remove some, add "Skyblock"
-- Sifting: Zinc Mesh currently not used (add recipes)
-- Sifting: add moss recipes (to obtain moss)
-- Sifting: add sculk recipes
++ Sifting: Zinc Mesh currently not used (add recipes)
++ Sifting: add moss recipes
++ ~~Sifting: add sculk recipes~~
 - Recipe conflicts check
 - Add ways to obtain dimensional shards (RFTools)
 - Add ways to obtain uranite (Powah)
-- Source: Moss and Pale Moss
+* Source: Moss and Pale Moss
 - Release előtt beállítások ( pl EMI Dev mode )
-- https://modrinth.com/mod/extended-ae -> Fordítás
++ https://modrinth.com/mod/extended-ae -> Fordítás
 - Disable: Wireless terminals from extended-ae
-- Kezdeti netherrak az extrudáláshoz honnan? -> Többi extrudáló recept kezdeti cucca is kell (Lélekhomok szitálás, Lélekhomok honnan?)
++ Kezdeti netherrak az extrudáláshoz honnan? -> Többi extrudáló recept kezdeti cucca is kell (Lélekhomok szitálás, Lélekhomok honnan?)
 + Az összes info hotkey -> Shift-re ( pl AdvancedAE most Ctrl)
 + Remove Sophistaced Backpacks ? -> Create Storage (Neo/Forge)
 + Remove waystones ? -> RFTools Utility + RFTools Builder + RFTools Power
@@ -140,8 +140,8 @@
 + 'Fully infested' string missing
 + AdvancedAE fordítás
 * Hammerlib (elvileg megvan de nemmegy)
++ ~~Sophisticated Core: bucket of experience (nagy de csak pár dolog kéne belőle...)~~
 - Create Enchantment Industry Fordítás frissítés
-- Sophisticated Core: bucket of experience (nagy de csak pár dolog kéne belőle...)
 - EMI Fordítások
 
 # Feautures
@@ -190,7 +190,7 @@
 + Sieve Pale oak sapling from Leaves
 + Crush Dirt to get Dust
 + Mix Gravel and Water to get Moss
-- Skulk can be shifted to get: skulk sensor, skulk catalyst and skulk shrieker
+- Moss can be shifted to get: Sculk sensor, Sculk catalyst and Sculk shrieker
 - Sieve Resin from Coarse Dirt
 - Sieve Flax seeds from Grass
 + Extrude dirt from water and gravel

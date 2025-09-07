@@ -335,10 +335,11 @@ const siftingRecipes = [
       Output.of('minecraft:cobweb', 0.05),
     ],
     tier4: [
-      Output.of('minecraft:sculk_vein', 0.1),
+      Output.of('minecraft:sculk', 0.2),
       Output.of('minecraft:sculk_sensor', 0.1),
       Output.of('minecraft:sculk_catalyst', 0.05),
       Output.of('minecraft:sculk_shrieker', 0.05),
+      Output.of('minecraft:sculk_vein', 0.01),
     ]
   },
   {
