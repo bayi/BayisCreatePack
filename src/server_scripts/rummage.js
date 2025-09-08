@@ -1,6 +1,5 @@
 
 const baseLoot = [
-  { item: 'createskyblock:dirt_piece', weight: 20 },
   { item: 'minecraft:stick', weight: 15 },
   { item: 'createsifter:stone_pebble', weight: 10 },
   { item: 'createsifter:andesite_pebble', weight: 7 },

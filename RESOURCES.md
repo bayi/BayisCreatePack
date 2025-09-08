@@ -1,3 +1,33 @@
+# Wood Tier
+- Get wood, planks, sticks from trees
+- Get stone pebbles, basic seeds from rummaging through the dirt/grass
+- Craft Wooden Shears to obtain leaves
+-- Craft a Leaf Mulcher to obtain more dirt and potential seeds from leaves
+-- Craft a composter to get bone meal from excess seeds and plants
+-- Get all the sapplings by sifting Leaves
+-  Craft a Crushing Hammer to crush cobblestone into gravel, sand and dust
+-- Basic manual sifting of gravel to get resources like flint,coal,iron and zinc and more
+
+# Stone Tier
+- Get a Melter by upgrading a Furnace with Andesite Alloy to get lava
+-- Melt Leaves to get water / or craft a Cauldron and wait for rain
+- Create a basic cobblestone generator with water and lava
+- Create storage drawers and backpacks
+- Entry level Create tools to automate some of the processes
+
+# Iron Tier
+- Automate Sifting to get more resources
+- Build extruders for advanced stone generation
+- Basic AE2
+- Mob farms
+
+# ?
+
+# Quantum Tier
+- AdvancedAE and ExtendedAE
+- Quantum computers and quantum armor
+
+
 + Facsemeték: Levelek szitálása
 + Földdarab: Levelekből Levélmucsozóval
 + Föld: Földdarabból, Extrudálás (Föld, Sóder, Víz)
