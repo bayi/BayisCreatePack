@@ -32,10 +32,3 @@
 + Pókszem
 + Create: dísz blokkok (Extrudálás)
 
-# TODO:
-* Tömörített blockkok (2x, 4x, 8x: Föld, Zúzottkő, Sóder, Homok) MEGA tömörítés check (1 szintig megy)
-- Föld jobb klikkel (kalapács) -> föld darab, kő darabok
-
-- Mod idea: https://modrinth.com/mod/silent-gear
-- Mod idea: https://modrinth.com/mod/modern-industrialization
-- Mod idea: https://modrinth.com/mod/fargos-talismans
