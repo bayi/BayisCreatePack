@@ -4,6 +4,7 @@
 - AdvancedAE !
 - Advancement Plaques
 - Amendments *
+- [AntiBlocksReChiseled](https://modrinth.com/mod/antiblocksrechiseled)
 - Applied Energistics 2 *
 - Applied Energistics 2 Wireless Terminals *
 - Better Advancements
@@ -81,9 +82,11 @@
 - Add: Dragon head -> (Remove end cities generation)
 - Remove swamp huts ?
 - Remove all generated structures and make end portal craftable, add dragon head
-- Mod idea: https://modrinth.com/mod/silent-gear
-- Mod idea: https://modrinth.com/mod/modern-industrialization
 - Mod idea: https://modrinth.com/mod/fargos-talismans
++ ~Mod idea: https://modrinth.com/mod/silent-gear~
++ ~Mod idea: https://modrinth.com/mod/modern-industrialization~
++ ~Mod Idea: https://modrinth.com/mod/pylons~
++ ~Mod Idea: https://modrinth.com/mod/elevatormod~
 + Source: Moss and Pale Moss (Mixin water and gravel)
 + ~~Add ways to obtain dimensional shards (RFTools)~~ -> Craftable
 + Add ways to obtain uranite (Powah)

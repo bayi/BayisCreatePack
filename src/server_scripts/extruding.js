@@ -183,4 +183,54 @@ ServerEvents.recipes(event => {
     .advanced(true)
     .consumeBlocks([false, true])
 
+
+  // Concrete from dyes
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:white_concrete'), [ BlockPredicate.of('create_dragons_plus:white_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:orange_concrete'), [ BlockPredicate.of('create_dragons_plus:orange_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:magenta_concrete'), [ BlockPredicate.of('create_dragons_plus:magenta_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:light_blue_concrete'), [ BlockPredicate.of('create_dragons_plus:light_blue_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:yellow_concrete'), [ BlockPredicate.of('create_dragons_plus:yellow_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:lime_concrete'), [ BlockPredicate.of('create_dragons_plus:lime_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:pink_concrete'), [ BlockPredicate.of('create_dragons_plus:pink_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:gray_concrete'), [ BlockPredicate.of('create_dragons_plus:gray_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:light_gray_concrete'), [ BlockPredicate.of('create_dragons_plus:light_gray_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:cyan_concrete'), [ BlockPredicate.of('create_dragons_plus:cyan_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:purple_concrete'), [ BlockPredicate.of('create_dragons_plus:purple_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:blue_concrete'), [ BlockPredicate.of('create_dragons_plus:blue_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:brown_concrete'), [ BlockPredicate.of('create_dragons_plus:brown_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:green_concrete'), [ BlockPredicate.of('create_dragons_plus:green_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:red_concrete'), [ BlockPredicate.of('create_dragons_plus:red_dye'), BlockPredicate.of('minecraft:lava')])
+
+  event.recipes.create_mechanical_extruder
+    .extruding(Item.of('minecraft:black_concrete'), [ BlockPredicate.of('create_dragons_plus:black_dye'), BlockPredicate.of('minecraft:lava')])
+
 })
