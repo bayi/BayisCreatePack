@@ -465,6 +465,12 @@ const siftingRecipes = [
       Output.of('create:experience_nugget', 0.5),
     ]
   },
+  {
+    input: 'createsifter:crushed_end_stone', time: 500, waterlogged: true,
+    tier1: [
+      Output.of('minecraft:dragon_head', 0.05),
+    ]
+  }
 ]
 
 // Add sifting recipes

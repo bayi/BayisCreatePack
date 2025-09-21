@@ -78,9 +78,9 @@
 - Recipe conflicts check
 - Release előtt beállítások ( pl EMI Dev mode )
 - Fix KubeJS Recipe ID Errors (same ID)
-* Add: Sponge -> (Remove ocean monument generation)
-* Add: Dragon head -> (Remove end cities generation)
-* Remove all generated structures and make end portal craftable, add dragon head
++ Add: Sponge -> (Remove ocean monument generation)
++ Add: Dragon head -> (Remove end cities generation)
++ Remove all generated structures and make end portal craftable, add dragon head
 - Custom islands: End portal, Nether: Blaze spawner
 - Mod idea: https://modrinth.com/mod/fargos-talismans
 + Remove swamp huts
@@ -142,7 +142,7 @@
 * Copy configs to git / cleanup deps
 + Valami default settings mod ( Keybinds )
 + Carry on vs AE2 key conflict
-- Keybind mod (with search)
++ ~Keybind mod (with search)~
 - Cleanup
 
 ## Resourcepack
