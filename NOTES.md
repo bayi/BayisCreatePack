@@ -72,17 +72,19 @@
 
 ## General
 
+- Mafglib / Bocchud
 - EMI Még nem jó? -> Lehet mégis -> Fix create mechanical crafter
 - Advancements: Remove some, add "Skyblock"
 - Recipe conflicts check
 - Release előtt beállítások ( pl EMI Dev mode )
 - Fix KubeJS Recipe ID Errors (same ID)
-- Add: Sponge -> (Remove ocean monument generation)
-- Remove trial chambes ?
-- Add: Dragon head -> (Remove end cities generation)
-- Remove swamp huts ?
-- Remove all generated structures and make end portal craftable, add dragon head
+* Add: Sponge -> (Remove ocean monument generation)
+* Add: Dragon head -> (Remove end cities generation)
+* Remove all generated structures and make end portal craftable, add dragon head
+- Custom islands: End portal, Nether: Blaze spawner
 - Mod idea: https://modrinth.com/mod/fargos-talismans
++ Remove swamp huts
++ ~Remove trial chambes~
 + ~Mod idea: https://modrinth.com/mod/silent-gear~
 + ~Mod idea: https://modrinth.com/mod/modern-industrialization~
 + ~Mod Idea: https://modrinth.com/mod/pylons~

@@ -20,11 +20,7 @@
   "structuresToGenerate": {
     "allow_list": true,
     "elements": [
-      "minecraft:fortress",
-      "minecraft:swamp_hut",
       "minecraft:stronghold",
-      "minecraft:monument",
-      "minecraft:end_city",
       "minecraft:trial_chambers"
     ]
   }
