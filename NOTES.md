@@ -78,11 +78,10 @@
 - Recipe conflicts check
 - Release előtt beállítások ( pl EMI Dev mode )
 - Fix KubeJS Recipe ID Errors (same ID)
+- Mod idea: https://modrinth.com/mod/fargos-talismans
 + Add: Sponge -> (Remove ocean monument generation)
 + Add: Dragon head -> (Remove end cities generation)
-+ Remove all generated structures and make end portal craftable, add dragon head
-- Custom islands: End portal, Nether: Blaze spawner
-- Mod idea: https://modrinth.com/mod/fargos-talismans
++ Custom islands: ~~End portal~~ Nether: Blaze spawner
 + Remove swamp huts
 + ~Remove trial chambes~
 + ~Mod idea: https://modrinth.com/mod/silent-gear~
@@ -184,7 +183,7 @@
 ## Worldgen
 + Starter island types: hard (without chest), default (with chest lava and ice) and easy (with a minimal AE2 setup and extra items)
 + No starter loot or chest (on hard map) generates
-+ Structures generate: strongholds, trial chambers, monuments, nether fortress and end cities
++ Structures generate: strongholds, trial chambers
 + All biomes generate, all structure bounding boxes generate
 + Increased spread for monuments and trial chambers
 
