@@ -21,7 +21,8 @@
     "allow_list": true,
     "elements": [
       "minecraft:stronghold",
-      "minecraft:trial_chambers"
+      "minecraft:trial_chambers",
+      "createskyblock:blaze_island"
     ]
   }
 }
