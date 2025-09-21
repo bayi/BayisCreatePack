@@ -468,7 +468,9 @@ const siftingRecipes = [
   {
     input: 'createsifter:crushed_end_stone', time: 500, waterlogged: true,
     tier1: [
+      Output.of('minecraft:dragon_breath', 0.3),
       Output.of('minecraft:dragon_head', 0.05),
+      Output.of('minecraft:dragon_egg', 0.01),
     ]
   }
 ]
