@@ -295,13 +295,13 @@ const siftingRecipes = [
       Output.of('createsifter:andesite_pebble', 0.5),
     ],
     tier4: [
-      Output.of('minecraft:redstone', 0.5),
-      Output.of('minecraft:spider_eye', 0.1),
+      Output.of('2x minecraft:redstone', 0.5),
       Output.of('create:crushed_raw_gold', 0.2),
       Output.of('create:crushed_raw_copper', 0.2),
       Output.of('create:crushed_raw_zinc', 0.2),
       Output.of('create:crushed_raw_iron', 0.2),
       Output.of('powah:uraninite_raw', 0.2),
+      Output.of('minecraft:spider_eye', 0.1),
       Output.of('minecraft:lapis_lazuli', 0.1),
       Output.of('minecraft:diamond', 0.1),
       Output.of('minecraft:emerald', 0.05),
@@ -311,19 +311,19 @@ const siftingRecipes = [
   {
     input: 'createsifter:dust', time: 200, waterlogged: false,
     tier1: [
+      Output.of('2x minecraft:redstone', 0.2),
       Output.of('createskyblock:certus_quartz_seeds', 0.1),
       Output.of('createskyblock:amethyst_seeds', 0.1),
-      Output.of('minecraft:redstone', 0.1),
       Output.of('minecraft:glowstone_dust', 0.1),
       Output.of('vanillabackport:resin_clump', 0.1),
     ],
     tier2: [
+      Output.of('3x minecraft:redstone', 0.25),
+      Output.of('minecraft:bone_meal', 0.3),
+      Output.of('2x minecraft:glowstone_dust', 0.2),
+      Output.of('2x minecraft:gunpowder', 0.2),
       Output.of('ae2:sky_dust', 0.1),
-      Output.of('minecraft:redstone', 0.25),
-      Output.of('minecraft:glowstone_dust', 0.1),
-      Output.of('minecraft:gunpowder', 0.1),
       Output.of('ae2:certus_quartz_dust', 0.1),
-      Output.of('minecraft:bone_meal', 0.5),
       Output.of('vanillabackport:resin_clump', 0.1),
     ]
   },
@@ -370,7 +370,7 @@ const siftingRecipes = [
   {
     input: 'createsifter:crushed_netherrack', time: 500, waterlogged: false,
     tier1: [
-      Output.of('minecraft:nether_wart', 0.1),
+      Output.of('minecraft:nether_wart', 0.2),
       Output.of('minecraft:soul_sand', 0.25),
       Output.of('minecraft:soul_soil', 0.25),
       Output.of('minecraft:quartz', 0.05),
@@ -381,18 +381,18 @@ const siftingRecipes = [
       Output.of('createsifter:basalt_pebble', 0.3),
       Output.of('createsifter:blackstone_pebble', 0.3),
       Output.of('createsifter:tuff_pebble', 0.3),
-      Output.of('minecraft:nether_wart', 0.1),
-      Output.of('minecraft:quartz', 0.1),
+      Output.of('2x minecraft:quartz', 0.2),
+      Output.of('2x minecraft:nether_wart', 0.2),
     ]
   },
   {
     input: 'minecraft:soul_sand', time: 400, waterlogged: false,
     tier1: [
+      Output.of('minecraft:glowstone_dust', 0.2),
+      Output.of('minecraft:quartz', 0.2),
+      Output.of('2x minecraft:nether_wart', 0.1),
       Output.of('minecraft:bone', 0.1),
-      Output.of('minecraft:glowstone_dust', 0.1),
       Output.of('minecraft:gunpowder', 0.1),
-      Output.of('minecraft:quartz', 0.1),
-      Output.of('minecraft:nether_wart', 0.1),
       Output.of('create:experience_nugget', 0.5),
     ]
   },
