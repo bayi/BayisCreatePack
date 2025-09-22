@@ -396,8 +396,8 @@ const siftingRecipes = [
   {
     input: 'minecraft:soul_sand', time: 400, waterlogged: false,
     tier1: [
+      Output.of('minecraft:quartz', 0.5),
       Output.of('minecraft:glowstone_dust', 0.2),
-      Output.of('minecraft:quartz', 0.2),
       Output.of('2x minecraft:nether_wart', 0.1),
       Output.of('minecraft:bone', 0.1),
       Output.of('minecraft:gunpowder', 0.1),
