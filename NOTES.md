@@ -79,6 +79,7 @@
 - Release előtt beállítások ( pl EMI Dev mode )
 - Fix KubeJS Recipe ID Errors (same ID)
 - Mod idea: https://modrinth.com/mod/fargos-talismans
+- Move skyblockbuilder to src/config folder
 + Add: Sponge -> (Remove ocean monument generation)
 + Add: Dragon head -> (Remove end cities generation)
 + Custom islands: ~~End portal~~ Nether: Blaze spawner

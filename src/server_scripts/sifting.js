@@ -325,11 +325,19 @@ const siftingRecipes = [
       Output.of('ae2:sky_dust', 0.1),
       Output.of('ae2:certus_quartz_dust', 0.1),
       Output.of('vanillabackport:resin_clump', 0.1),
+    ],
+    tier4: [
+      Output.of('4x minecraft:redstone', 0.25),
+      Output.of('3x minecraft:glowstone_dust', 0.2),
+      Output.of('3x minecraft:gunpowder', 0.2),
+      Output.of('ae2:sky_dust', 0.1),
+      Output.of('ae2:certus_quartz_dust', 0.1),
+      Output.of('vanillabackport:resin_clump', 0.1),
     ]
   },
   {
     input: 'minecraft:moss_block', time: 300, waterlogged: false,
-    tier2: [
+    tier1: [
       Output.of('minecraft:big_dripleaf', 0.1),
       Output.of('minecraft:dead_bush', 0.1),
       Output.of('minecraft:small_dripleaf', 0.1),
