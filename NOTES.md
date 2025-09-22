@@ -77,9 +77,9 @@
 - Advancements: Remove some, add "Skyblock"
 - Recipe conflicts check
 - Release előtt beállítások ( pl EMI Dev mode )
-- Fix KubeJS Recipe ID Errors (same ID)
 - Mod idea: https://modrinth.com/mod/fargos-talismans
 - Supplementaries: quiver
++ Fix KubeJS Recipe ID Errors (same ID)
 + Add: Sponge -> (Remove ocean monument generation)
 + Add: Dragon head -> (Remove end cities generation)
 + Custom islands: ~~End portal~~ Nether: Blaze spawner

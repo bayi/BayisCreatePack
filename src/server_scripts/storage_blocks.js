@@ -1,5 +1,6 @@
 ServerEvents.recipes((event) => {
   function addRecipe(from, to) {
+    console.log(`Adding storage block recipe: ${from} -> ${to}`)
     event.shaped(
       Item.of(to, 1),
       [
@@ -19,8 +20,8 @@ ServerEvents.recipes((event) => {
 
   Object.keys(global.StorageBlocks).forEach(key => {
     for (let i = 0; i < global.StorageBlocks[key].length; i++) {
-      const from = i == 0 ? `minecraft:${key}` : `createskyblock:compressed_${key}${i}_block`
-      const to =  `createskyblock:compressed_${key}${i + 1}_block`
+      let from = i == 0 ? `minecraft:${key}` : `createskyblock:compressed_${key}${i}_block`
+      let to =  `createskyblock:compressed_${key}${i + 1}_block`
       addRecipe(from, to)
     }
   })
