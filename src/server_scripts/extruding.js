@@ -167,6 +167,12 @@ ServerEvents.recipes(event => {
         Item.of('minecraft:basalt'), [ BlockPredicate.of('minecraft:blue_ice'), BlockPredicate.of('minecraft:lava') ]
     ).catalyst('minecraft:soul_soil')
 
+  // Blackstone from Blue Ice and Lava with Blackstone catalyst
+  event.recipes.create_mechanical_extruder
+    .extruding(
+        Item.of('minecraft:blackstone'), [ BlockPredicate.of('minecraft:blue_ice'), BlockPredicate.of('minecraft:lava') ]
+    ).catalyst('minecraft:blackstone')
+
   // End Stone from Blue Ice and Lava in The End
   event.recipes.create_mechanical_extruder
     .extruding(
