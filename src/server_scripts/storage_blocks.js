@@ -1,6 +1,5 @@
 ServerEvents.recipes((event) => {
   function addRecipe(from, to) {
-    console.log(`Adding storage block recipe: ${from} -> ${to}`)
     event.shaped(
       Item.of(to, 1),
       [
