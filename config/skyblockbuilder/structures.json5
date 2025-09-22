@@ -20,9 +20,9 @@
   "structuresToGenerate": {
     "allow_list": true,
     "elements": [
-      "minecraft:stronghold",
       "minecraft:trial_chambers",
-      "createskyblock:blaze_island"
+      "createskyblock:blaze_island",
+      "createskyblock:end_portal_island"
     ]
   }
 }
