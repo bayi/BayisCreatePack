@@ -463,7 +463,7 @@ const siftingRecipes = [
       Output.of('minecraft:shulker_shell', 0.1),
       Output.of('minecraft:echo_shard', 0.05),
       Output.of('minecraft:nether_star', 0.01),
-      Output.of('create:experience_nugget', 0.5),
+      Output.of('create:experience_nugget', 0.25),
     ]
   },
   {
