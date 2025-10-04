@@ -72,6 +72,8 @@
 
 ## General
 
+- More Infinity cells!
+- Replace original create crushing wheel recipe for netherrack -> crushed netherrack -> cinder_flour
 - https://modrinth.com/mod/luminax ?
 - https://modrinth.com/mod/oritech ?
 - Mafglib / Bocchud

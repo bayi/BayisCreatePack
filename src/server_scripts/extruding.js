@@ -139,6 +139,12 @@ ServerEvents.recipes(event => {
         Item.of('create:scoria'), [ BlockPredicate.of('create:chocolate'), BlockPredicate.of('minecraft:lava') ]
     )
 
+  // create:scorchia from Netherite Block and Lava
+  event.recipes.create_mechanical_extruder
+    .extruding(
+        Item.of('create:scorchia'), [ BlockPredicate.of('minecraft:netherrack'), BlockPredicate.of('minecraft:lava') ]
+    )
+
   // create:crimsite from Iron Block Lava with Soul Soil catalyst
   event.recipes.create_mechanical_extruder
     .extruding(
