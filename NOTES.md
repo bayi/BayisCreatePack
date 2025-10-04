@@ -72,6 +72,8 @@
 
 ## General
 
+- https://modrinth.com/mod/luminax ?
+- https://modrinth.com/mod/oritech ?
 - Mafglib / Bocchud
 - EMI Még nem jó? -> Lehet mégis -> Fix create mechanical crafter
 - Advancements: Remove some, add "Skyblock"
