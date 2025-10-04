@@ -72,6 +72,7 @@
 
 ## General
 
+- Geore! Translate, recipes
 - More Infinity cells!
 - Replace original create crushing wheel recipe for netherrack -> crushed netherrack -> cinder_flour
 - https://modrinth.com/mod/luminax ?
